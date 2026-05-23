@@ -1,0 +1,36 @@
+{
+  "updated": "2026-05-23T16:53:37.504Z",
+  "plants": [
+    {
+      "id": "grande-luzule",
+      "name": "Grande Luzule",
+      "latin": "Luzula sylvatica                    Grande Luzule, Luzule des bois, Luzule des forêts, Luzule élevée",
+      "famille": "Juncaceae",
+      "origine": "Europe de l'ouest",
+      "hauteur": "30 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/grande-luzule.jpg"
+    }
+  ]
+}
