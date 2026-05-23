@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="vb-public-version" content="v2026-05-23-pub1">
+<title>Fleurissement & biodiversité — Ablon-sur-Seine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest:#2f5e43; --forest-d:#234735; --forest-l:#4a7c59;
+    --cream:#f8f6f0; --paper:#fffdf8; --ink:#26302a; --ink-soft:#5b665e; --ink-faint:#8a958c;
+    --honey:#c98a2b; --honey-bg:#fdf3e2; --line:rgba(47,94,67,.14);
+    --font-display:'Fraunces',Georgia,serif; --font-body:'Outfit',system-ui,sans-serif;
+    --radius:18px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:var(--font-body); color:var(--ink); background:var(--cream);
+    -webkit-font-smoothing:antialiased; line-height:1.6; min-height:100vh;
+  }
+  .wrap{max-width:560px; margin:0 auto; background:var(--paper); min-height:100vh; box-shadow:0 0 60px rgba(35,71,53,.08); overflow:hidden}
+  /* HERO */
+  .hero{position:relative; aspect-ratio:4/3; background:var(--forest); overflow:hidden}
+  .hero img{width:100%; height:100%; object-fit:cover; display:block}
+  .hero-illus{position:absolute; inset:0; display:flex; align-items:center; justify-content:center}
+  .hero-illus svg{width:100%; height:100%}
+  .hero-grad{position:absolute; inset:0; background:linear-gradient(to top, rgba(20,40,28,.78) 0%, rgba(20,40,28,.15) 45%, transparent 70%)}
+  .hero-txt{position:absolute; left:0; right:0; bottom:0; padding:26px 24px 22px; color:#fff}
+  .hero-fam{display:inline-block; font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.82); font-weight:500; margin-bottom:7px}
+  .hero-name{font-family:var(--font-display); font-size:30px; font-weight:600; line-height:1.08; letter-spacing:-.01em}
+  .hero-latin{font-family:var(--font-display); font-style:italic; font-size:16px; color:rgba(255,255,255,.86); margin-top:3px}
+  /* CONTENT */
+  .content{padding:22px 24px 0}
+  .badges{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px}
+  .badge{display:inline-flex; align-items:center; gap:6px; background:var(--cream); border:0.5px solid var(--line); padding:8px 13px; border-radius:100px; font-size:13px; color:var(--ink-soft); font-weight:500}
+  .badge b{color:var(--ink); font-weight:600}
+  .melli{display:flex; gap:13px; align-items:flex-start; background:var(--honey-bg); border:0.5px solid rgba(201,138,43,.3); border-radius:var(--radius); padding:15px 17px; margin-bottom:22px}
+  .melli-ico{font-size:26px; line-height:1; flex-shrink:0; margin-top:1px}
+  .melli-txt{font-size:13.5px; color:#7a531a; line-height:1.5}
+  .melli-txt b{color:var(--honey); font-weight:600}
+  .sec-title{font-family:var(--font-display); font-size:13px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--forest); margin:0 0 11px}
+  .desc{font-size:15px; color:var(--ink-soft); line-height:1.72; margin-bottom:26px}
+  .specs{display:grid; grid-template-columns:1fr 1fr; gap:0; border:0.5px solid var(--line); border-radius:var(--radius); overflow:hidden; margin-bottom:26px}
+  .spec{padding:13px 16px; border-top:0.5px solid var(--line)}
+  .spec:nth-child(-n+2){border-top:none}
+  .spec:nth-child(odd){border-right:0.5px solid var(--line)}
+  .spec-k{font-size:11px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:3px}
+  .spec-v{font-size:14.5px; color:var(--ink); font-weight:500; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
+  .dot{display:inline-block; width:14px; height:14px; border-radius:50%; box-shadow:0 0 0 1px rgba(0,0,0,.12)}
+  .where{background:var(--forest); color:#fff; border-radius:var(--radius); padding:19px 20px; margin-bottom:26px}
+  .where .sec-title{color:rgba(255,255,255,.7); margin-bottom:13px}
+  .where-row{display:flex; justify-content:space-between; align-items:baseline; gap:12px; padding:7px 0; border-top:0.5px solid rgba(255,255,255,.14); font-size:14px}
+  .where-row:first-of-type{border-top:none}
+  .where-loc{color:#fff}
+  .where-loc small{color:rgba(255,255,255,.6); font-size:12px}
+  .where-q{font-weight:600; white-space:nowrap; color:#bfe3cd}
+  .footer{text-align:center; padding:30px 24px 38px; border-top:0.5px solid var(--line); margin-top:6px}
+  .footer-leaf{font-size:22px; margin-bottom:8px}
+  .footer-town{font-family:var(--font-display); font-size:16px; font-weight:600; color:var(--forest)}
+  .footer-sub{font-size:12.5px; color:var(--ink-faint); margin-top:4px; line-height:1.5}
+  /* États */
+  .state{padding:80px 30px; text-align:center; color:var(--ink-faint)}
+  .state h2{font-family:var(--font-display); color:var(--forest); font-size:22px; margin-bottom:10px; font-weight:600}
+  /* Animations d'entrée */
+  .reveal{opacity:0; transform:translateY(14px); animation:rise .6s cubic-bezier(.2,.7,.3,1) forwards}
+  @keyframes rise{to{opacity:1; transform:none}}
+  .d1{animation-delay:.05s}.d2{animation-delay:.13s}.d3{animation-delay:.21s}.d4{animation-delay:.29s}.d5{animation-delay:.37s}.d6{animation-delay:.45s}
+  @media(prefers-reduced-motion:reduce){.reveal{animation:none; opacity:1; transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<script>
+/* ════════════════════════════════════════════════════════════
+   PAGE PUBLIQUE — Ablon-sur-Seine
+   Hub-routeur : lit ?type=…&id=… et affiche le bon contenu.
+   v1 : type "fiche" (plante). Les autres types viendront ensuite.
+   ════════════════════════════════════════════════════════════ */
+
+var MONTHS = ['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+var COLORS = [
+  {id:'blanc',l:'Blanc',h:'#FFFFFF'},{id:'creme',l:'Crème',h:'#FFF8DC'},
+  {id:'jaune',l:'Jaune',h:'#FFD700'},{id:'orange',l:'Orange',h:'#FF8C00'},
+  {id:'rouge',l:'Rouge',h:'#DC143C'},{id:'rose',l:'Rose',h:'#FF69B4'},
+  {id:'rose-f',l:'Rose foncé',h:'#C71585'},{id:'violet',l:'Violet',h:'#8B008B'},
+  {id:'lavande',l:'Lavande',h:'#967BB6'},{id:'bleu',l:'Bleu',h:'#4169E1'},
+  {id:'vert',l:'Vert',h:'#2E8B57'},{id:'bordeaux',l:'Bordeaux',h:'#722F37'},
+  {id:'brun',l:'Brun',h:'#8B4513'},{id:'noir',l:'Noir',h:'#1a1a1a'}
+];
+
+/* Données d'exemple intégrées — utilisées si data/plants-public.json est absent
+   (ex. test en local). En ligne, ce sera remplacé par les vraies données publiées. */
+var DEMO = [
+  {
+    id:'echinacea-purpurea', name:'Échinacée pourpre', latin:'Echinacea purpurea',
+    famille:'Astéracées', origine:'Amérique du Nord', hauteur:'80–100 cm', largeur:'45 cm',
+    exposition:'soleil', months:[5,6,7,8,9], colors:['rose-f','rose'], mellifere:['oui'],
+    feuillage:'caduc', rusticite:'-25 °C', sol:'Ordinaire, bien drainé', densite:'5',
+    desc:"Vivace robuste aux grandes fleurs en marguerite, l'échinacée fleurit tout l'été. Son cœur bombé attire abeilles et papillons, et ses graines nourrissent les oiseaux en hiver. Une plante aussi décorative que précieuse pour la faune du jardin.",
+    affectations:[{site:'Parc de la Mairie', massif:'M3', quantite:'12'},{site:'Rond-point Nord', massif:'', quantite:'8'}],
+    photo:null
+  },
+  {
+    id:'lavandula-angustifolia', name:'Lavande vraie', latin:'Lavandula angustifolia',
+    famille:'Lamiacées', origine:'Bassin méditerranéen', hauteur:'40–60 cm', largeur:'50 cm',
+    exposition:'soleil', months:[5,6,7], colors:['lavande','violet'], mellifere:['oui'],
+    feuillage:'persistant', rusticite:'-15 °C', sol:'Sec, pauvre, calcaire', densite:'6',
+    desc:"Arbuste aromatique au feuillage argenté et aux épis parfumés. La lavande est un véritable aimant à pollinisateurs et résiste sans peine à la sécheresse — une alliée du fleurissement économe en eau.",
+    affectations:[{site:'Place de l'Église', massif:'M1', quantite:'20'}],
+    photo:null
+  }
+];
+
+/* ─── Utilitaires ─── */
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+function el(){ return document.getElementById('app'); }
+
+function fmtMonths(months){
+  if (!Array.isArray(months) || !months.length) return '';
+  var ms = months.slice().sort(function(a,b){return a-b;});
+  // plage continue → "juin à août", sinon liste
+  var cont = ms.every(function(m,i){ return i===0 || m===ms[i-1]+1; });
+  if (cont && ms.length>1) return MONTHS[ms[0]] + ' à ' + MONTHS[ms[ms.length-1]];
+  return ms.map(function(m){return MONTHS[m];}).join(', ');
+}
+function expoLabel(e){ return ({'soleil':'☀️ Plein soleil','mi-ombre':'⛅ Mi-ombre','ombre':'🌑 Ombre'})[e] || e || ''; }
+function isMelli(p){ return Array.isArray(p.mellifere) ? p.mellifere.indexOf('oui')>=0 : !!p.mellifere && String(p.mellifere).toLowerCase().indexOf('oui')>=0; }
+
+/* Illustration botanique de secours (quand pas de photo) */
+function heroIllus(){
+  return '<div class="hero-illus"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">'
+    + '<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a6e50"/><stop offset="1" stop-color="#234735"/></linearGradient></defs>'
+    + '<rect width="400" height="300" fill="url(#g)"/>'
+    + '<g fill="none" stroke="rgba(255,255,255,.16)" stroke-width="2" stroke-linecap="round">'
+    + '<path d="M200 300 C200 220 200 170 200 120"/>'
+    + '<path d="M200 200 C160 185 135 150 128 110" /><path d="M200 200 C240 185 265 150 272 110"/>'
+    + '<path d="M200 160 C170 150 150 125 145 95"/><path d="M200 160 C230 150 250 125 255 95"/>'
+    + '</g>'
+    + '<g fill="rgba(255,255,255,.13)">'
+    + '<ellipse cx="128" cy="104" rx="17" ry="34" transform="rotate(-32 128 104)"/>'
+    + '<ellipse cx="272" cy="104" rx="17" ry="34" transform="rotate(32 272 104)"/>'
+    + '<ellipse cx="145" cy="89" rx="13" ry="27" transform="rotate(-22 145 89)"/>'
+    + '<ellipse cx="255" cy="89" rx="13" ry="27" transform="rotate(22 255 89)"/>'
+    + '<circle cx="200" cy="96" r="26"/>'
+    + '</g>'
+    + '<circle cx="200" cy="96" r="14" fill="rgba(255,255,255,.22)"/>'
+    + '</svg></div>';
+}
+
+/* ─── Rendu de la fiche plante ─── */
+function renderFiche(p){
+  var melliHtml = isMelli(p)
+    ? '<div class="melli reveal d3"><div class="melli-ico">🐝</div><div class="melli-txt"><b>Plante mellifère</b> — elle offre nectar et pollen aux abeilles, bourdons et papillons. Un maillon précieux de la biodiversité d'Ablon.</div></div>'
+    : '';
+
+  // Badges
+  var badges = [];
+  var flo = fmtMonths(p.months);
+  if (flo) badges.push('<span class="badge">🌸 <b>'+esc(flo)+'</b></span>');
+  if (p.exposition) badges.push('<span class="badge">'+esc(expoLabel(p.exposition))+'</span>');
+  if (p.hauteur) badges.push('<span class="badge">📏 <b>'+esc(p.hauteur)+'</b></span>');
+  if (p.rusticite) badges.push('<span class="badge">❄️ <b>'+esc(p.rusticite)+'</b></span>');
+
+  // Specs (grille)
+  var specs = [];
+  function spec(k,v){ if(v) specs.push('<div class="spec"><div class="spec-k">'+k+'</div><div class="spec-v">'+v+'</div></div>'); }
+  spec('Famille', esc(p.famille));
+  spec('Origine', esc(p.origine));
+  spec('Hauteur', esc(p.hauteur));
+  spec('Largeur', esc(p.largeur));
+  spec('Feuillage', esc(({'caduc':'Caduc','persistant':'Persistant','semi-persistant':'Semi-persistant'})[p.feuillage]||p.feuillage));
+  spec('Rusticité', esc(p.rusticite));
+  spec('Sol', esc(p.sol));
+  if (Array.isArray(p.colors) && p.colors.length){
+    var dots = p.colors.map(function(id){ var c=COLORS.find(function(x){return x.id===id;}); return c?'<span class="dot" title="'+c.l+'" style="background:'+c.h+'"></span>':''; }).join('');
+    spec('Couleurs', dots);
+  }
+  // nombre pair de specs pour la grille
+  if (specs.length % 2 === 1) specs.push('<div class="spec"></div>');
+
+  // Où la voir
+  var affs = (Array.isArray(p.affectations)?p.affectations:[]).filter(function(a){return a.site||a.massif||a.quantite;});
+  var whereHtml = '';
+  if (affs.length){
+    var total = affs.reduce(function(s,a){return s+(parseInt(a.quantite,10)||0);},0);
+    var rows = affs.map(function(a){
+      var loc = esc(a.site||'Massif') + (a.massif?(' <small>· '+esc(a.massif)+'</small>'):'');
+      var q = a.quantite ? '<span class="where-q">'+esc(a.quantite)+' pieds</span>' : '';
+      return '<div class="where-row"><span class="where-loc">'+loc+'</span>'+q+'</div>';
+    }).join('');
+    whereHtml = '<div class="where reveal d5"><div class="sec-title">📍 Où la voir à Ablon'+(total?' — '+total+' au total':'')+'</div>'+rows+'</div>';
+  }
+
+  var photoHtml = p.photo
+    ? '<img src="'+esc(p.photo)+'" alt="'+esc(p.name)+'" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('afterbegin',''+heroIllus().replace(/'/g,"\'")+'')">'
+    : heroIllus();
+
+  el().innerHTML =
+    '<div class="hero reveal">'
+    +   photoHtml
+    +   '<div class="hero-grad"></div>'
+    +   '<div class="hero-txt">'
+    +     (p.famille?'<span class="hero-fam">'+esc(p.famille)+'</span>':'')
+    +     '<div class="hero-name">'+esc(p.name||'Plante')+'</div>'
+    +     (p.latin?'<div class="hero-latin">'+esc(p.latin)+'</div>':'')
+    +   '</div>'
+    + '</div>'
+    + '<div class="content">'
+    +   (badges.length?'<div class="badges reveal d2">'+badges.join('')+'</div>':'')
+    +   melliHtml
+    +   (p.desc?'<div class="reveal d4"><div class="sec-title">À propos</div><p class="desc">'+esc(p.desc)+'</p></div>':'')
+    +   (specs.length?'<div class="specs reveal d4">'+specs.join('')+'</div>':'')
+    +   whereHtml
+    + '</div>'
+    + '<div class="footer reveal d6">'
+    +   '<div class="footer-leaf">🌿</div>'
+    +   '<div class="footer-town">Ablon-sur-Seine</div>'
+    +   '<div class="footer-sub">Fleurissement & biodiversité<br>Une ville plus verte, pour tous et pour le vivant.</div>'
+    + '</div>';
+  document.title = (p.name||'Plante') + ' — Ablon-sur-Seine';
+}
+
+function renderState(title, msg){
+  el().innerHTML = '<div class="state"><div style="font-size:34px;margin-bottom:14px">🌿</div><h2>'+esc(title)+'</h2><p>'+esc(msg)+'</p></div>';
+}
+
+/* ─── Routeur ─── */
+function findPlant(list, id){
+  if (!id) return list[0] || null;
+  var idl = String(id).toLowerCase();
+  return list.find(function(p){
+    return String(p.id||'').toLowerCase()===idl
+        || String(p.name||'').toLowerCase()===idl
+        || String(p.latin||'').toLowerCase()===idl;
+  }) || null;
+}
+
+function route(list){
+  var params = new URLSearchParams(location.search);
+  var type = (params.get('type') || 'fiche').toLowerCase();
+  var id = params.get('id');
+  if (type === 'fiche' || type === 'plante'){
+    var p = findPlant(list, id);
+    if (p) renderFiche(p);
+    else renderState('Plante introuvable', 'Cette fiche n'est pas encore disponible.');
+  } else {
+    // Types à venir : photo, carte, affiche, plan, jeu…
+    renderState('Bientôt disponible', 'Ce type de contenu (« '+esc(type)+' ») sera bientôt accessible.');
+  }
+}
+
+/* ─── Démarrage : charge les données publiées, sinon démo ─── */
+(function(){
+  fetch('data/plants-public.json', {cache:'no-store'})
+    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    .then(function(d){ var list = Array.isArray(d) ? d : (d.plants || []); route(list.length?list:DEMO); })
+    .catch(function(){ route(DEMO); });
+})();
+</script>
+</body>
+</html>
