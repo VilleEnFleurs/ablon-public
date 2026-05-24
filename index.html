@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!-- vbpub-build-2 -->
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -69,6 +69,23 @@
   @keyframes rise{to{opacity:1; transform:none}}
   .d1{animation-delay:.05s}.d2{animation-delay:.13s}.d3{animation-delay:.21s}.d4{animation-delay:.29s}.d5{animation-delay:.37s}.d6{animation-delay:.45s}
   @media(prefers-reduced-motion:reduce){.reveal{animation:none; opacity:1; transform:none}}
+  /* Vue palette */
+  .pl-list{display:flex;flex-direction:column;gap:9px;margin-bottom:26px}
+  .pl-card{display:flex;align-items:center;gap:12px;padding:9px 12px;background:var(--cream);border:0.5px solid var(--line);border-radius:14px;text-decoration:none;color:inherit;transition:background .15s}
+  .pl-card:hover{background:#fff}
+  .pl-thumb{width:48px;height:48px;border-radius:10px;object-fit:cover;flex-shrink:0;background:#e8efe3}
+  .pl-thumb-x{display:flex;align-items:center;justify-content:center;font-size:22px}
+  .pl-info{display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}
+  .pl-name{font-weight:600;font-size:15px;color:var(--ink,#2b2926);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pl-sub{font-size:12.5px;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pl-arrow{font-size:22px;color:var(--forest);flex-shrink:0;opacity:.5}
+  .pl-card-static{cursor:default}.pl-card-static .pl-arrow{display:none}
+  .pal-img-wrap{position:relative;cursor:zoom-in;border-radius:14px;overflow:hidden;border:0.5px solid var(--line);box-shadow:0 4px 20px rgba(0,0,0,.08)}
+  .pal-img{display:block;width:100%;height:auto}
+  .pal-img-hint{position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;padding:5px 11px;border-radius:100px}
+  .pal-overlay{position:fixed;inset:0;z-index:9999;background:rgba(20,22,18,.94);display:flex;align-items:flex-start;justify-content:center;overflow:auto;cursor:zoom-out;padding:12px}
+  .pal-overlay img{max-width:100%;width:auto;height:auto;border-radius:6px;margin:auto}
+  .pal-overlay-x{position:fixed;top:14px;right:18px;color:#fff;font-size:26px;opacity:.85}
 </style>
 </head>
 <body>
@@ -239,6 +256,36 @@ function findPlant(list, id){
   }) || null;
 }
 
+function renderPalette(pal, list){
+  var nom = pal.nom || pal.name || pal.titre || 'Planche végétale';
+  var img = pal.image || '';
+  var plantes = pal.plantes || pal.plants || [];
+  window.__palImg = img;
+  var items = plantes.map(function(pl){
+    var uid = pl.urlId || pl.id || '';
+    var photo = pl.photo || '';
+    var thumb = photo ? '<img class="pl-thumb" src="'+esc(photo)+'" alt="">' : '<span class="pl-thumb pl-thumb-x">🌿</span>';
+    var sub = [pl.latin, pl.hauteur, pl.floraison].filter(Boolean).map(esc).join(' · ');
+    var inner = thumb + '<span class="pl-info"><span class="pl-name">'+esc(pl.name||'Plante')+'</span>'+(sub?'<span class="pl-sub">'+sub+'</span>':'')+'</span><span class="pl-arrow">›</span>';
+    return uid ? '<a class="pl-card" href="?type=fiche&id='+encodeURIComponent(uid)+'">'+inner+'</a>' : '<span class="pl-card pl-card-static">'+inner+'</span>';
+  }).join('');
+  var imgHtml = img ? '<div class="pal-img-wrap" onclick="openPalImg()"><img class="pal-img" src="'+esc(img)+'" alt="Planche"><div class="pal-img-hint">🔍 Toucher pour agrandir</div></div>' : '';
+  el().innerHTML =
+      '<div class="hero reveal"><div class="hero-grad"></div><div class="hero-txt"><span class="hero-fam">🎨 Palette végétale</span><div class="hero-name">'+esc(nom)+'</div></div></div>'
+    + '<div class="content">'
+    +   imgHtml
+    +   '<div class="sec-title" style="margin-top:18px">Les plantes de cette planche'+(plantes.length?' ('+plantes.length+')':'')+'</div>'
+    +   '<div class="pl-list">'+(items||'<p class="desc">Liste des plantes non disponible.</p>')+'</div>'
+    + '</div>';
+}
+function openPalImg(){
+  if(!window.__palImg) return;
+  var ov=document.createElement('div');
+  ov.className='pal-overlay';
+  ov.innerHTML='<img src="'+esc(window.__palImg)+'" alt="Planche"><div class="pal-overlay-x">✕</div>';
+  ov.onclick=function(){ ov.remove(); };
+  document.body.appendChild(ov);
+}
 function route(list){
   var params = new URLSearchParams(location.search);
   var type = (params.get('type') || 'fiche').toLowerCase();
@@ -247,18 +294,41 @@ function route(list){
     var p = findPlant(list, id);
     if (p) renderFiche(p);
     else renderState('Plante introuvable', 'Cette fiche n'est pas encore disponible.');
+  } else if (type === 'palette'){
+    if(!id){ renderState('Planche introuvable','Aucun identifiant de planche fourni.'); return; }
+    fetch('data/palettes/'+encodeURIComponent(id)+'.json',{cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(pal){ renderPalette(pal, list); })
+      .catch(function(){ renderState('Planche introuvable','Cette planche n\'est pas encore publiée, ou le lien est incorrect.'); });
   } else {
     // Types à venir : photo, carte, affiche, plan, jeu…
     renderState('Bientôt disponible', 'Ce type de contenu (« '+esc(type)+' ») sera bientôt accessible.');
   }
 }
 
-/* ─── Démarrage : charge les données publiées, sinon démo ─── */
+/* ─── Affichage quand l'espace est fermé (selon public-config.json) ─── */
+function showClosed(cfg){
+  var mode = (cfg && cfg.fermeMode) || 'blanc';
+  if (mode === 'blanc'){ document.body.innerHTML=''; document.body.style.background='#fff'; return; }
+  if (mode === 'perso' && cfg.fermeMessage){
+    el().innerHTML = '<div class="state"><div style="font-size:38px;margin-bottom:16px">🌿</div><p style="white-space:pre-wrap;max-width:520px;margin:0 auto;font-size:17px;line-height:1.6">'+esc(cfg.fermeMessage)+'</p></div>';
+    return;
+  }
+  renderState('Espace en cours de préparation', 'Cet espace public n'est pas encore ouvert. Revenez bientôt !');
+}
+
+/* ─── Démarrage : vérifie l'état (ouvert/fermé), puis charge les données ─── */
 (function(){
-  fetch('data/plants-public.json', {cache:'no-store'})
-    .then(function(r){ if(!r.ok) throw 0; return r.json(); })
-    .then(function(d){ var list = Array.isArray(d) ? d : (d.plants || []); route(list.length?list:DEMO); })
-    .catch(function(){ route(DEMO); });
+  fetch('public-config.json', {cache:'no-store'})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .catch(function(){ return null; })
+    .then(function(cfg){
+      if (cfg && cfg.actif === false){ showClosed(cfg); return; }
+      fetch('data/plants-public.json', {cache:'no-store'})
+        .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+        .then(function(d){ var list = Array.isArray(d) ? d : (d.plants || []); route(list.length?list:DEMO); })
+        .catch(function(){ route(DEMO); });
+    });
 })();
 </script>
 </body>
