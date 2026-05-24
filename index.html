@@ -1,4 +1,4 @@
-<!DOCTYPE html><!-- vbpub-build-4 -->
+<!DOCTYPE html><!-- vbpub-build-5 -->
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -127,7 +127,7 @@ var DEMO = [
     exposition:'soleil', months:[5,6,7], colors:['lavande','violet'], mellifere:['oui'],
     feuillage:'persistant', rusticite:'-15 °C', sol:'Sec, pauvre, calcaire', densite:'6',
     desc:"Arbuste aromatique au feuillage argenté et aux épis parfumés. La lavande est un véritable aimant à pollinisateurs et résiste sans peine à la sécheresse — une alliée du fleurissement économe en eau.",
-    affectations:[{site:'Place de l'Église', massif:'M1', quantite:'20'}],
+    affectations:[{site:'Place de l’Église', massif:'M1', quantite:'20'}],
     photo:null
   }
 ];
@@ -135,6 +135,7 @@ var DEMO = [
 /* ─── Utilitaires ─── */
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
 function el(){ return document.getElementById('app'); }
+function vbImgFail(img){ try{ img.style.display='none'; if(img.parentElement) img.parentElement.insertAdjacentHTML('afterbegin', heroIllus()); }catch(e){} }
 
 function fmtMonths(months){
   if (!Array.isArray(months) || !months.length) return '';
@@ -171,7 +172,7 @@ function heroIllus(){
 /* ─── Rendu de la fiche plante ─── */
 function renderFiche(p){
   var melliHtml = isMelli(p)
-    ? '<div class="melli reveal d3"><div class="melli-ico">🐝</div><div class="melli-txt"><b>Plante mellifère</b> — elle offre nectar et pollen aux abeilles, bourdons et papillons. Un maillon précieux de la biodiversité d'Ablon.</div></div>'
+    ? '<div class="melli reveal d3"><div class="melli-ico">🐝</div><div class="melli-txt"><b>Plante mellifère</b> — elle offre nectar et pollen aux abeilles, bourdons et papillons. Un maillon précieux de la biodiversité d’Ablon.</div></div>'
     : '';
 
   // Badges
@@ -213,7 +214,7 @@ function renderFiche(p){
   }
 
   var photoHtml = p.photo
-    ? '<img src="'+esc(p.photo)+'" alt="'+esc(p.name)+'" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('afterbegin',''+heroIllus().replace(/'/g,"\'")+'')">'
+    ? '<img src="'+esc(p.photo)+'" alt="'+esc(p.name)+'" onerror="vbImgFail(this)">'
     : heroIllus();
 
   el().innerHTML =
@@ -295,13 +296,13 @@ function route(list){
   if (type === 'fiche' || type === 'plante'){
     var p = findPlant(list, id);
     if (p) renderFiche(p);
-    else renderState('Plante introuvable', 'Cette fiche n'est pas encore disponible.');
+    else renderState('Plante introuvable', 'Cette fiche n’est pas encore disponible.');
   } else if (type === 'palette'){
     if(!id){ renderState('Planche introuvable','Aucun identifiant de planche fourni.'); return; }
     fetch('data/palettes/'+encodeURIComponent(id)+'.json',{cache:'no-store'})
       .then(function(r){ if(!r.ok) throw 0; return r.json(); })
       .then(function(pal){ renderPalette(pal, list); })
-      .catch(function(){ renderState('Planche introuvable','Cette planche n\'est pas encore publiée, ou le lien est incorrect.'); });
+      .catch(function(){ renderState('Planche introuvable','Cette planche n’est pas encore publiée, ou le lien est incorrect.'); });
   } else {
     // Types à venir : photo, carte, affiche, plan, jeu…
     renderState('Bientôt disponible', 'Ce type de contenu (« '+esc(type)+' ») sera bientôt accessible.');
@@ -316,7 +317,7 @@ function showClosed(cfg){
     el().innerHTML = '<div class="state"><div style="font-size:38px;margin-bottom:16px">🌿</div><p style="white-space:pre-wrap;max-width:520px;margin:0 auto;font-size:17px;line-height:1.6">'+esc(cfg.fermeMessage)+'</p></div>';
     return;
   }
-  renderState('Espace en cours de préparation', 'Cet espace public n'est pas encore ouvert. Revenez bientôt !');
+  renderState('Espace en cours de préparation', 'Cet espace public n’est pas encore ouvert. Revenez bientôt !');
 }
 
 /* ─── Démarrage : vérifie l'état (ouvert/fermé), puis charge les données ─── */
