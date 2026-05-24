@@ -1,4 +1,4 @@
-<!DOCTYPE html><!-- vbpub-build-2 -->
+<!DOCTYPE html><!-- vbpub-build-3 -->
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -287,6 +287,8 @@ function openPalImg(){
   document.body.appendChild(ov);
 }
 function route(list){
+  // Mode aperçu local : données injectées par le module Publication, aucun fetch/déploiement requis
+  if (window.__VBPREVIEW){ var _pv=window.__VBPREVIEW; if(_pv.type==='palette'){ renderPalette(_pv.data, list||[]); return; } }
   var params = new URLSearchParams(location.search);
   var type = (params.get('type') || 'fiche').toLowerCase();
   var id = params.get('id');
