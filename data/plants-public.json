@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T16:53:37.504Z",
+  "updated": "2026-05-31T08:12:51.697Z",
   "plants": [
     {
       "id": "grande-luzule",
@@ -31,6 +31,51 @@
       "desc": "",
       "affectations": [],
       "photo": "data/photos/grande-luzule.jpg"
+    },
+    {
+      "id": "astilbe-d-arends",
+      "name": "Astilbe d'Arends",
+      "nom": "Astilbe d'Arends",
+      "latin": "Astilbe x arendsii Fanal                    Astilbe d'Arends, Voile de la mariée, Fausse Spirée",
+      "famille": "Saxifragaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "rouge",
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "humide",
+      "densite": "4",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/astilbe-d-arends-0.jpg",
+      "photos": [
+        "data/photos/astilbe-d-arends-0.jpg",
+        "data/photos/astilbe-d-arends-1.jpg",
+        "data/photos/astilbe-d-arends-2.jpg",
+        "data/photos/astilbe-d-arends-3.jpg"
+      ]
     }
   ]
 }
