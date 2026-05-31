@@ -1,15 +1,18 @@
 {
-  "updated": "2026-05-31T08:12:51.697Z",
+  "updated": "2026-05-31T08:32:13.821Z",
   "plants": [
     {
       "id": "grande-luzule",
       "name": "Grande Luzule",
-      "latin": "Luzula sylvatica                    Grande Luzule, Luzule des bois, Luzule des forêts, Luzule élevée",
+      "nom": "Grande Luzule",
+      "latin": "Luzula sylvatica",
       "famille": "Juncaceae",
+      "typePlante": "BIOFAITRICE",
       "origine": "Europe de l'ouest",
       "hauteur": "30 cm",
       "largeur": "30 cm",
       "exposition": "mi-ombre",
+      "port": "",
       "months": [
         2,
         3,
@@ -25,12 +28,519 @@
         "non"
       ],
       "feuillage": "persistant",
+      "couleurFeuillage": "vert",
       "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
       "sol": "ordinaire",
       "densite": "5",
       "desc": "",
-      "affectations": [],
-      "photo": "data/photos/grande-luzule.jpg"
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 BIO 4",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/grande-luzule-0.jpg",
+      "photos": [
+        "data/photos/grande-luzule-0.jpg",
+        "data/photos/grande-luzule-1.jpg",
+        "data/photos/grande-luzule-2.jpg",
+        "data/photos/grande-luzule-3.jpg"
+      ]
+    },
+    {
+      "id": "micocoulier-de-provence",
+      "name": "Micocoulier de Provence",
+      "nom": "Micocoulier de Provence",
+      "latin": "Celtis australis",
+      "famille": "Cannabaceae",
+      "typePlante": "Arbres",
+      "origine": "Méditerranée",
+      "hauteur": "20 m",
+      "largeur": "15 m",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 7
+        }
+      ],
+      "photo": "data/photos/micocoulier-de-provence-0.jpg",
+      "photos": [
+        "data/photos/micocoulier-de-provence-0.jpg",
+        "data/photos/micocoulier-de-provence-1.jpg",
+        "data/photos/micocoulier-de-provence-2.jpg",
+        "data/photos/micocoulier-de-provence-3.jpg"
+      ]
+    },
+    {
+      "id": "fetuque-bleue",
+      "name": "Fétuque bleue",
+      "nom": "Fétuque bleue",
+      "latin": "Festuca glauca",
+      "famille": "Poaceae",
+      "typePlante": "",
+      "origine": "Europe centrale",
+      "hauteur": "25 cm",
+      "largeur": "20 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "9",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 BIO 3",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/fetuque-bleue-0.jpg",
+      "photos": [
+        "data/photos/fetuque-bleue-0.jpg",
+        "data/photos/fetuque-bleue-1.jpg",
+        "data/photos/fetuque-bleue-2.jpg",
+        "data/photos/fetuque-bleue-3.jpg"
+      ]
+    },
+    {
+      "id": "vergerette-de-karvinski",
+      "name": "Vergerette de Karvinski",
+      "nom": "Vergerette de Karvinski",
+      "latin": "Erigeron karvinskianus",
+      "famille": "Asteraceae",
+      "typePlante": "",
+      "origine": "Amérique centrale",
+      "hauteur": "20 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "blanc",
+        "jaune",
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "la vergerette que j'avais installée dans un bonne terre, riche n'a rien donné la première année. Je l'ai retrouvée en abondance l'année suivante dans la cour sableuse et bien tassée, sans mon intervention, sous les sauges c'est à dire dans un yn lieu de passage bien abrité et ensoleillé l'après midi. .",
+      "affectations": [
+        {
+          "site": "FETE NATURE 27 BIO",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/vergerette-de-karvinski-0.jpg",
+      "photos": [
+        "data/photos/vergerette-de-karvinski-0.jpg",
+        "data/photos/vergerette-de-karvinski-1.jpg",
+        "data/photos/vergerette-de-karvinski-2.jpg",
+        "data/photos/vergerette-de-karvinski-3.jpg"
+      ]
+    },
+    {
+      "id": "echinacee-pale",
+      "name": "Echinacée pâle",
+      "nom": "Echinacée pâle",
+      "latin": "Echinacea pallida",
+      "famille": "Asteraceae",
+      "typePlante": "",
+      "origine": "Amérique du nord",
+      "hauteur": "80 cm",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "7",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 BIO",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/echinacee-pale-0.jpg",
+      "photos": [
+        "data/photos/echinacee-pale-0.jpg",
+        "data/photos/echinacee-pale-1.jpg",
+        "data/photos/echinacee-pale-2.jpg",
+        "data/photos/echinacee-pale-3.jpg"
+      ]
+    },
+    {
+      "id": "calament-nepeta",
+      "name": "Calament népéta",
+      "nom": "Calament népéta",
+      "latin": "Calamintha",
+      "famille": "Lamiaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "45 cm",
+      "largeur": "70 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "ordinaire",
+      "densite": "3",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 VIV 5",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/calament-nepeta-0.jpg",
+      "photos": [
+        "data/photos/calament-nepeta-0.jpg",
+        "data/photos/calament-nepeta-1.jpg",
+        "data/photos/calament-nepeta-2.jpg",
+        "data/photos/calament-nepeta-3.jpg"
+      ]
+    },
+    {
+      "id": "bugle-rampante",
+      "name": "Bugle rampante",
+      "nom": "Bugle rampante",
+      "latin": "Ajuga reptans",
+      "famille": "Lamiaceae",
+      "typePlante": "",
+      "origine": "Europe de l'ouest, Europe centrale, Europe du sud, Asie occidentale",
+      "hauteur": "15 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "3",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 VIV 4",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/bugle-rampante-0.jpg",
+      "photos": [
+        "data/photos/bugle-rampante-0.jpg",
+        "data/photos/bugle-rampante-1.jpg",
+        "data/photos/bugle-rampante-2.jpg",
+        "data/photos/bugle-rampante-3.jpg"
+      ]
+    },
+    {
+      "id": "thym-commun",
+      "name": "Thym commun",
+      "nom": "Thym commun",
+      "latin": "Thymus vulgaris",
+      "famille": "Lamiaceae",
+      "typePlante": "Vivace",
+      "origine": "Horticole",
+      "hauteur": "25 cm",
+      "largeur": "25 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 VIV 3",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/thym-commun-0.jpg",
+      "photos": [
+        "data/photos/thym-commun-0.jpg",
+        "data/photos/thym-commun-1.jpg",
+        "data/photos/thym-commun-2.jpg",
+        "data/photos/thym-commun-3.jpg"
+      ]
+    },
+    {
+      "id": "herbe-a-chats-cataire-menthe-a-chats",
+      "name": "Herbe à chats, Cataire, Menthe à chats",
+      "nom": "Herbe à chats, Cataire, Menthe à chats",
+      "latin": "Nepeta mussinii",
+      "famille": "Lamiaceae",
+      "typePlante": "VIVACE",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "bleu",
+        "violet"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 VIV 2",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/herbe-a-chats-cataire-menthe-a-chats-0.jpg",
+      "photos": [
+        "data/photos/herbe-a-chats-cataire-menthe-a-chats-0.jpg",
+        "data/photos/herbe-a-chats-cataire-menthe-a-chats-1.jpg",
+        "data/photos/herbe-a-chats-cataire-menthe-a-chats-2.jpg",
+        "data/photos/herbe-a-chats-cataire-menthe-a-chats-3.jpg"
+      ]
+    },
+    {
+      "id": "iris-des-jardins",
+      "name": "Iris des jardins",
+      "nom": "Iris des jardins",
+      "latin": "Iris germanica 'Black Knight'",
+      "famille": "Iridaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "75 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "FETE NATURE 26 VIV 1",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/iris-des-jardins-0.jpg",
+      "photos": [
+        "data/photos/iris-des-jardins-0.jpg",
+        "data/photos/iris-des-jardins-1.jpg",
+        "data/photos/iris-des-jardins-2.jpg"
+      ]
+    },
+    {
+      "id": "hemerocalle",
+      "name": "Hémérocalle",
+      "nom": "Hémérocalle",
+      "latin": "Hemerocallis Burning Daylight                    Hémérocalle, Lis d'un jour",
+      "famille": "Asphodelaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "70 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/hemerocalle-0.jpg",
+      "photos": [
+        "data/photos/hemerocalle-0.jpg",
+        "data/photos/hemerocalle-1.jpg",
+        "data/photos/hemerocalle-2.jpg",
+        "data/photos/hemerocalle-3.jpg"
+      ]
+    },
+    {
+      "id": "cierge-d-argent-de-matsumura",
+      "name": "Cierge d'argent de Matsumura",
+      "nom": "Cierge d'argent de Matsumura",
+      "latin": "Actaea matsumurae White Pearl                    Cierge d'argent de Matsumura",
+      "famille": "Ranunculaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "1.20 m",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/cierge-d-argent-de-matsumura-0.jpg",
+      "photos": [
+        "data/photos/cierge-d-argent-de-matsumura-0.jpg",
+        "data/photos/cierge-d-argent-de-matsumura-1.jpg",
+        "data/photos/cierge-d-argent-de-matsumura-2.jpg",
+        "data/photos/cierge-d-argent-de-matsumura-3.jpg"
+      ]
     },
     {
       "id": "astilbe-d-arends",
@@ -75,6 +585,5273 @@
         "data/photos/astilbe-d-arends-1.jpg",
         "data/photos/astilbe-d-arends-2.jpg",
         "data/photos/astilbe-d-arends-3.jpg"
+      ]
+    },
+    {
+      "id": "digitale-excelsior-en-melange-digitalis-purpurea-excelsior",
+      "name": "Digitale 'Excelsior' en mélange Digitalis purpurea 'Excelsior''",
+      "nom": "Digitale 'Excelsior' en mélange Digitalis purpurea 'Excelsior''",
+      "latin": "Digitalis purpurea 'Excelsior''",
+      "famille": "Scrophulariaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "1.50 m",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "blanc",
+        "rose",
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/digitale-excelsior-en-melange-digitalis-purpurea-excelsior-0.jpg",
+      "photos": [
+        "data/photos/digitale-excelsior-en-melange-digitalis-purpurea-excelsior-0.jpg",
+        "data/photos/digitale-excelsior-en-melange-digitalis-purpurea-excelsior-1.jpg",
+        "data/photos/digitale-excelsior-en-melange-digitalis-purpurea-excelsior-2.jpg"
+      ]
+    },
+    {
+      "id": "myosotis-du-caucase",
+      "name": "Myosotis du Caucase",
+      "nom": "Myosotis du Caucase",
+      "latin": "Brunnera macrophylla                    Myosotis du Caucase, Buglosse de Sibérie, Brunnère à grandes feuilles",
+      "famille": "Boraginaceae",
+      "typePlante": "",
+      "origine": "Caucase",
+      "hauteur": "45 cm",
+      "largeur": "45 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/myosotis-du-caucase-0.jpg",
+      "photos": [
+        "data/photos/myosotis-du-caucase-0.jpg",
+        "data/photos/myosotis-du-caucase-1.jpg",
+        "data/photos/myosotis-du-caucase-2.jpg",
+        "data/photos/myosotis-du-caucase-3.jpg"
+      ]
+    },
+    {
+      "id": "polystic-a-soies",
+      "name": "Polystic à soies",
+      "nom": "Polystic à soies",
+      "latin": "Polystichum setiferum                    Polystic à soies, Fougère des fleuristes, Aspidie à cils raides",
+      "famille": "Dryopteridaceae",
+      "typePlante": "",
+      "origine": "Europe de l'ouest",
+      "hauteur": "60 cm",
+      "largeur": "80 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/polystic-a-soies-0.jpg",
+      "photos": [
+        "data/photos/polystic-a-soies-0.jpg",
+        "data/photos/polystic-a-soies-1.jpg",
+        "data/photos/polystic-a-soies-2.jpg"
+      ]
+    },
+    {
+      "id": "fougere-de-wallich",
+      "name": "Fougère de Wallich",
+      "nom": "Fougère de Wallich",
+      "latin": "Dryopteris wallichiana                    Fougère de Wallich, Dryoptère de Wallich",
+      "famille": "Dryopteridaceae",
+      "typePlante": "",
+      "origine": "Asie orientale",
+      "hauteur": "1 m",
+      "largeur": "80 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/fougere-de-wallich-0.jpg",
+      "photos": [
+        "data/photos/fougere-de-wallich-0.jpg",
+        "data/photos/fougere-de-wallich-1.jpg",
+        "data/photos/fougere-de-wallich-2.jpg",
+        "data/photos/fougere-de-wallich-3.jpg"
+      ]
+    },
+    {
+      "id": "canche-cespiteuse",
+      "name": "Canche cespiteuse",
+      "nom": "Canche cespiteuse",
+      "latin": "Deschampsia cespitosa 'Goldschleier'",
+      "famille": "Poaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "90 cm",
+      "largeur": "90 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "6",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/canche-cespiteuse-0.jpg",
+      "photos": [
+        "data/photos/canche-cespiteuse-0.jpg",
+        "data/photos/canche-cespiteuse-1.jpg",
+        "data/photos/canche-cespiteuse-2.jpg",
+        "data/photos/canche-cespiteuse-3.jpg"
+      ]
+    },
+    {
+      "id": "laiche-a-epis-pendants",
+      "name": "Laîche à épis pendants",
+      "nom": "Laîche à épis pendants",
+      "latin": "Carex pendula                    Laîche à épis pendants, Laîche pendante, Carex pendant, Laîche élevée",
+      "famille": "Cyperaceae",
+      "typePlante": "",
+      "origine": "Europe centrale",
+      "hauteur": "1.20 m",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "humide",
+      "densite": "3",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/laiche-a-epis-pendants-0.jpg",
+      "photos": [
+        "data/photos/laiche-a-epis-pendants-0.jpg",
+        "data/photos/laiche-a-epis-pendants-1.jpg",
+        "data/photos/laiche-a-epis-pendants-2.jpg"
+      ]
+    },
+    {
+      "id": "marguerite-d-automne",
+      "name": "Marguerite d’automne",
+      "nom": "Marguerite d’automne",
+      "latin": "Aster dumosus 'Lady In Blue'",
+      "famille": "Astéracées",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "25 cm",
+      "largeur": "35 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "ordinaire",
+      "densite": "7",
+      "desc": "Plantée au printemps, elle n'avait vraiment l'air de rien quand je l'ai reçue! A peine quelques brins d'herbe. Depuis une semaine, elle fleurit, et elle est magnifique! Très joli bleu lavande au coeur jaune. Aucune maladie à signaler, juste une propension à se dessécher rapidement, il faut l'arroser régulièrement.",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/marguerite-d-automne-0.jpg",
+      "photos": [
+        "data/photos/marguerite-d-automne-0.jpg",
+        "data/photos/marguerite-d-automne-1.jpg",
+        "data/photos/marguerite-d-automne-2.jpg",
+        "data/photos/marguerite-d-automne-3.jpg"
+      ]
+    },
+    {
+      "id": "aconit-de-carmichael",
+      "name": "Aconit de Carmichael",
+      "nom": "Aconit de Carmichael",
+      "latin": "Aconitum carmichaelii 'Arendsii'",
+      "famille": "Ranunculaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "1.20 m",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "très belle et florifère",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/aconit-de-carmichael-0.jpg",
+      "photos": [
+        "data/photos/aconit-de-carmichael-0.jpg",
+        "data/photos/aconit-de-carmichael-1.jpg",
+        "data/photos/aconit-de-carmichael-2.jpg",
+        "data/photos/aconit-de-carmichael-3.jpg"
+      ]
+    },
+    {
+      "id": "persicaire-amplexicaule",
+      "name": "Persicaire amplexicaule",
+      "nom": "Persicaire amplexicaule",
+      "latin": "Persicaria amplexicaulis 'Speciosa'",
+      "famille": "Polygonaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "1 m",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "1",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/persicaire-amplexicaule-0.jpg",
+      "photos": [
+        "data/photos/persicaire-amplexicaule-0.jpg",
+        "data/photos/persicaire-amplexicaule-1.jpg",
+        "data/photos/persicaire-amplexicaule-2.jpg",
+        "data/photos/persicaire-amplexicaule-3.jpg"
+      ]
+    },
+    {
+      "id": "senecon-d-ete",
+      "name": "Séneçon d'été",
+      "nom": "Séneçon d'été",
+      "latin": "Ligularia dentata Othello                    Séneçon d'été, Plante léopard, Ligulaire dentée, Ligulaire d'or",
+      "famille": "Asteraceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "70 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "humide",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/senecon-d-ete-0.jpg",
+      "photos": [
+        "data/photos/senecon-d-ete-0.jpg",
+        "data/photos/senecon-d-ete-1.jpg",
+        "data/photos/senecon-d-ete-2.jpg",
+        "data/photos/senecon-d-ete-3.jpg"
+      ]
+    },
+    {
+      "id": "hosta-tardiana-halcyon",
+      "name": "HOSTA TARDIANA HALCYON",
+      "nom": "HOSTA TARDIANA HALCYON",
+      "latin": "Hosta tardiana",
+      "famille": "Asparagaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "35 cm",
+      "largeur": "35 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "lavande"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 28
+        }
+      ],
+      "photo": "data/photos/hosta-tardiana-halcyon-0.jpg",
+      "photos": [
+        "data/photos/hosta-tardiana-halcyon-0.jpg",
+        "data/photos/hosta-tardiana-halcyon-1.jpg"
+      ]
+    },
+    {
+      "id": "geranium-brun",
+      "name": "Géranium brun",
+      "nom": "Géranium brun",
+      "latin": "Geranium phaeum                    Géranium brun, Géranium sombre, Géranium noirâtre",
+      "famille": "Geraniaceae",
+      "typePlante": "",
+      "origine": "Europe de l'ouest",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "violet",
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/geranium-brun-0.jpg",
+      "photos": [
+        "data/photos/geranium-brun-0.jpg",
+        "data/photos/geranium-brun-1.jpg",
+        "data/photos/geranium-brun-2.jpg",
+        "data/photos/geranium-brun-3.jpg"
+      ]
+    },
+    {
+      "id": "trolle-des-montagnes",
+      "name": "Trolle des montagnes",
+      "nom": "Trolle des montagnes",
+      "latin": "Trollius europaeus",
+      "famille": "Ranunculaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "humide",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/trolle-des-montagnes-0.jpg",
+      "photos": [
+        "data/photos/trolle-des-montagnes-0.jpg",
+        "data/photos/trolle-des-montagnes-1.jpg",
+        "data/photos/trolle-des-montagnes-2.jpg",
+        "data/photos/trolle-des-montagnes-3.jpg"
+      ]
+    },
+    {
+      "id": "pulmonaire-blue-ensign",
+      "name": "Pulmonaire 'Blue Ensign'",
+      "nom": "Pulmonaire 'Blue Ensign'",
+      "latin": "Pulmonaria 'Blue Ensign'",
+      "famille": "Boraginaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "25 cm",
+      "largeur": "25 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/pulmonaire-blue-ensign-0.jpg",
+      "photos": [
+        "data/photos/pulmonaire-blue-ensign-0.jpg",
+        "data/photos/pulmonaire-blue-ensign-1.jpg",
+        "data/photos/pulmonaire-blue-ensign-2.jpg",
+        "data/photos/pulmonaire-blue-ensign-3.jpg"
+      ]
+    },
+    {
+      "id": "hellebore-orientale",
+      "name": "Hellébore orientale",
+      "nom": "Hellébore orientale",
+      "latin": "Helleborus orientalis",
+      "famille": "Ranunculaceae",
+      "typePlante": "",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ARISTIDE BRIAND",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/hellebore-orientale-0.jpg",
+      "photos": [
+        "data/photos/hellebore-orientale-0.jpg",
+        "data/photos/hellebore-orientale-1.jpg",
+        "data/photos/hellebore-orientale-2.jpg"
+      ]
+    },
+    {
+      "id": "echinacea-paradoxa",
+      "name": "Echinacea paradoxa",
+      "nom": "Echinacea paradoxa",
+      "latin": "Echinacea paradoxa",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Amérique du nord",
+      "hauteur": "90 cm",
+      "largeur": "50 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/echinacea-paradoxa-0.jpg",
+      "photos": [
+        "data/photos/echinacea-paradoxa-0.jpg",
+        "data/photos/echinacea-paradoxa-1.jpg",
+        "data/photos/echinacea-paradoxa-2.jpg",
+        "data/photos/echinacea-paradoxa-3.jpg"
+      ]
+    },
+    {
+      "id": "tagetes-patula",
+      "name": "Tagetes patula",
+      "nom": "Tagetes patula",
+      "latin": "Tagetes patula",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "25 cm",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "orange"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -6.5°C (zone USDA 9a) Voir la carte",
+      "sol": "argileux",
+      "densite": "7",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "fete de la nature - ANNUELLE",
+          "massif": "",
+          "quantite": ""
+        }
+      ],
+      "photo": "data/photos/tagetes-patula-0.jpg",
+      "photos": [
+        "data/photos/tagetes-patula-0.jpg",
+        "data/photos/tagetes-patula-1.jpg",
+        "data/photos/tagetes-patula-2.jpg"
+      ]
+    },
+    {
+      "id": "impatiens-walleriana",
+      "name": "impatiens walleriana",
+      "nom": "impatiens walleriana",
+      "latin": "Impatiens walleriana",
+      "famille": "Balsaminaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "48 cm",
+      "largeur": "33 cm",
+      "exposition": "mi-ombre",
+      "port": "Etalé",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "orange",
+        "rouge",
+        "blanc",
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -1°C (zone USDA 10a) Voir la carte",
+      "sol": "argileux",
+      "densite": "10",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/impatiens-walleriana-0.jpg",
+      "photos": [
+        "data/photos/impatiens-walleriana-0.jpg",
+        "data/photos/impatiens-walleriana-1.jpg",
+        "data/photos/impatiens-walleriana-2.jpg"
+      ]
+    },
+    {
+      "id": "allium-sativum",
+      "name": "Allium sativum",
+      "nom": "Allium sativum",
+      "latin": "",
+      "famille": "Amaryllidaceae",
+      "typePlante": "Bulbes et semences potagères",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "Hérissée",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -15°C",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/allium-sativum-0.jpg",
+      "photos": [
+        "data/photos/allium-sativum-0.jpg",
+        "data/photos/allium-sativum-1.jpg",
+        "data/photos/allium-sativum-2.jpg",
+        "data/photos/allium-sativum-3.jpg"
+      ]
+    },
+    {
+      "id": "origanum-vulgare",
+      "name": "Origanum vulgare",
+      "nom": "Origanum vulgare",
+      "latin": "Origanum vulgare",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes aromatiques",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/origanum-vulgare-0.jpg",
+      "photos": [
+        "data/photos/origanum-vulgare-0.jpg",
+        "data/photos/origanum-vulgare-1.jpg"
+      ]
+    },
+    {
+      "id": "matricaria-chamomilla",
+      "name": "Matricaria chamomilla",
+      "nom": "Matricaria chamomilla",
+      "latin": "Matricaria camomilla",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe de l'ouest",
+      "hauteur": "60 cm",
+      "largeur": "50 cm",
+      "exposition": "soleil",
+      "port": "Tapissante",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "jaune",
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "argileux",
+      "densite": "6",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/matricaria-chamomilla-0.jpg",
+      "photos": [
+        "data/photos/matricaria-chamomilla-0.jpg"
+      ]
+    },
+    {
+      "id": "cosmos-bipinnatus",
+      "name": "Cosmos bipinnatus",
+      "nom": "Cosmos bipinnatus",
+      "latin": "Cosmos bipinatus",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes annuelles",
+      "origine": "Horticole",
+      "hauteur": "45 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Erigée",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "rouge",
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -4°C",
+      "sol": "",
+      "densite": "",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/cosmos-bipinnatus-0.jpg",
+      "photos": [
+        "data/photos/cosmos-bipinnatus-0.jpg"
+      ]
+    },
+    {
+      "id": "nepeta-faassenii",
+      "name": "Nepeta faassenii",
+      "nom": "Nepeta faassenii",
+      "latin": "Nepeta x",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "45 cm",
+      "largeur": "50 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "colors": [
+        "lavande"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "gaura-lindheimerii-whirling-butterflies",
+      "name": "GAURA LINDHEIMERII WHIRLING BUTTERFLIES",
+      "nom": "GAURA LINDHEIMERII WHIRLING BUTTERFLIES",
+      "latin": "Gaura lindheimeri",
+      "famille": "Onagraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "drainant",
+      "densite": "3",
+      "desc": "en normandie et en terre argileuse, je les ai plantés en terre argileuse là où la terre est la moins humide dans mon jardin et au soleil (sud), sans rien ajouter. Je mets de la paille dessus en hiver et elles vont très bien.",
+      "affectations": [],
+      "photo": "data/photos/gaura-lindheimerii-whirling-butterflies-0.jpg",
+      "photos": [
+        "data/photos/gaura-lindheimerii-whirling-butterflies-0.jpg",
+        "data/photos/gaura-lindheimerii-whirling-butterflies-1.jpg",
+        "data/photos/gaura-lindheimerii-whirling-butterflies-2.jpg",
+        "data/photos/gaura-lindheimerii-whirling-butterflies-3.jpg"
+      ]
+    },
+    {
+      "id": "lavatera-x-barnsley",
+      "name": "LAVATERA X BARNSLEY",
+      "nom": "LAVATERA X BARNSLEY",
+      "latin": "Lavatera x",
+      "famille": "Malvaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1.50 m",
+      "largeur": "1.50 m",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "rouge",
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -9.5°C (zone USDA 8b) Voir la carte",
+      "sol": "drainant",
+      "densite": "1",
+      "desc": "Croissance lente l'an dernier (1ère année de plantation) et cette année l'arbuste est mort! Il resiste pourtant au gel! - 10° chez moi cet hiver. Je ne renouvelle donc pas cette plante.",
+      "affectations": [],
+      "photo": "data/photos/lavatera-x-barnsley-0.jpg",
+      "photos": [
+        "data/photos/lavatera-x-barnsley-0.jpg",
+        "data/photos/lavatera-x-barnsley-1.jpg"
+      ]
+    },
+    {
+      "id": "salvia-officinalis",
+      "name": "SALVIA OFFICINALIS",
+      "nom": "SALVIA OFFICINALIS",
+      "latin": "Salvia officinalis",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes aromatiques",
+      "origine": "Asie occidentale",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Récolte",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "lavande"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "phlomis-fruticosa-bourgaei",
+      "name": "PHLOMIS FRUTICOSA BOURGAEI",
+      "nom": "PHLOMIS FRUTICOSA BOURGAEI",
+      "latin": "Phlomis bourgaei",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Moyen-Orient",
+      "hauteur": "1 m",
+      "largeur": "80 cm",
+      "exposition": "mi-ombre",
+      "port": "irrégulier, buissonnant",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "jaune",
+        "brun"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -12°C (zone USDA 8a) Voir la carte",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/phlomis-fruticosa-bourgaei-0.jpg",
+      "photos": [
+        "data/photos/phlomis-fruticosa-bourgaei-0.jpg",
+        "data/photos/phlomis-fruticosa-bourgaei-1.jpg",
+        "data/photos/phlomis-fruticosa-bourgaei-2.jpg",
+        "data/photos/phlomis-fruticosa-bourgaei-3.jpg"
+      ]
+    },
+    {
+      "id": "cistus-monspeliensis",
+      "name": "CISTUS MONSPELIENSIS",
+      "nom": "CISTUS MONSPELIENSIS",
+      "latin": "Cistus monspeliensis",
+      "famille": "Cistaceae",
+      "typePlante": "Arbustes",
+      "origine": "Méditerranée",
+      "hauteur": "70 cm",
+      "largeur": "1 m",
+      "exposition": "soleil",
+      "port": "irrégulier, buissonnant",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "jaune",
+        "blanc"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/cistus-monspeliensis-0.jpg",
+      "photos": [
+        "data/photos/cistus-monspeliensis-0.jpg",
+        "data/photos/cistus-monspeliensis-1.jpg",
+        "data/photos/cistus-monspeliensis-2.jpg",
+        "data/photos/cistus-monspeliensis-3.jpg"
+      ]
+    },
+    {
+      "id": "erysimum-linifolium-bowles-me",
+      "name": "ERYSIMUM LINIFOLIUM BOWLES ME",
+      "nom": "ERYSIMUM LINIFOLIUM BOWLES ME",
+      "latin": "Erysimum x",
+      "famille": "Brassicaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "90 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "colors": [
+        "lavande"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -12°C (zone USDA 8a) Voir la carte",
+      "sol": "drainant",
+      "densite": "3",
+      "desc": "J'en ai planté 6 au vu des commentaires élogieux sur cette plante, l'une est morte, les autres ont beaucoup grossi, arbustes compacts, bel aspect mais une seule floraison en avril et depuis plus rien!!!!! aucune fleur! Très due!",
+      "affectations": [],
+      "photo": "data/photos/erysimum-linifolium-bowles-me-0.jpg",
+      "photos": [
+        "data/photos/erysimum-linifolium-bowles-me-0.jpg",
+        "data/photos/erysimum-linifolium-bowles-me-1.jpg",
+        "data/photos/erysimum-linifolium-bowles-me-2.jpg",
+        "data/photos/erysimum-linifolium-bowles-me-3.jpg"
+      ]
+    },
+    {
+      "id": "euryops-chrysanthemoides",
+      "name": "EURYOPS CHRYSANTHEMOIDES",
+      "nom": "EURYOPS CHRYSANTHEMOIDES",
+      "latin": "Euryops chrysanthemoides",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Afrique du sud",
+      "hauteur": "90 cm",
+      "largeur": "70 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -6.5°C (zone USDA 9a) Voir la carte",
+      "sol": "argileux",
+      "densite": "2",
+      "desc": "",
+      "affectations": [],
+      "photo": "data/photos/euryops-chrysanthemoides-0.jpg",
+      "photos": [
+        "data/photos/euryops-chrysanthemoides-0.jpg",
+        "data/photos/euryops-chrysanthemoides-1.jpg",
+        "data/photos/euryops-chrysanthemoides-2.jpg",
+        "data/photos/euryops-chrysanthemoides-3.jpg"
+      ]
+    },
+    {
+      "id": "begonia-grandis-var-evansiana",
+      "name": "BEGONIA GRANDIS VAR EVANSIANA",
+      "nom": "BEGONIA GRANDIS VAR EVANSIANA",
+      "latin": "Begonia grandis",
+      "famille": "Begoniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Himalaya",
+      "hauteur": "80 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": "24"
+        }
+      ],
+      "photo": "data/photos/begonia-grandis-var-evansiana-0.jpg",
+      "photos": [
+        "data/photos/begonia-grandis-var-evansiana-0.jpg",
+        "data/photos/begonia-grandis-var-evansiana-1.jpg",
+        "data/photos/begonia-grandis-var-evansiana-2.jpg",
+        "data/photos/begonia-grandis-var-evansiana-3.jpg"
+      ]
+    },
+    {
+      "id": "brunnera-macrophylla-jack-frost",
+      "name": "BRUNNERA MACROPHYLLA JACK FROST",
+      "nom": "BRUNNERA MACROPHYLLA JACK FROST",
+      "latin": "Brunnera macrophylla",
+      "famille": "Boraginaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        4,
+        5
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "Ses fleurs puis ses grandes feuilles argentées illuminent superbement un massif orienté au Nord et à l'ombre d'un grand arbre.",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/brunnera-macrophylla-jack-frost-0.jpg",
+      "photos": [
+        "data/photos/brunnera-macrophylla-jack-frost-0.jpg",
+        "data/photos/brunnera-macrophylla-jack-frost-1.jpg",
+        "data/photos/brunnera-macrophylla-jack-frost-2.jpg",
+        "data/photos/brunnera-macrophylla-jack-frost-3.jpg"
+      ]
+    },
+    {
+      "id": "geranium-nodosum",
+      "name": "GERANIUM NODOSUM",
+      "nom": "GERANIUM NODOSUM",
+      "latin": "Geranium nodosum",
+      "famille": "Geraniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe de l'est",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": "48"
+        }
+      ],
+      "photo": "data/photos/geranium-nodosum-0.jpg",
+      "photos": [
+        "data/photos/geranium-nodosum-0.jpg",
+        "data/photos/geranium-nodosum-1.jpg",
+        "data/photos/geranium-nodosum-2.jpg",
+        "data/photos/geranium-nodosum-3.jpg"
+      ]
+    },
+    {
+      "id": "matteucia-struthiopteris",
+      "name": "MATTEUCIA STRUTHIOPTERIS",
+      "nom": "MATTEUCIA STRUTHIOPTERIS",
+      "latin": "Matteuccia struthiopteris",
+      "famille": "Dryopteridaceae (Woodsiaceae)",
+      "typePlante": "Fougères",
+      "origine": "Amérique du nord",
+      "hauteur": "80 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "Divergeant",
+      "months": [],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": "14"
+        }
+      ],
+      "photo": "data/photos/matteucia-struthiopteris-0.jpg",
+      "photos": [
+        "data/photos/matteucia-struthiopteris-0.jpg",
+        "data/photos/matteucia-struthiopteris-1.jpg",
+        "data/photos/matteucia-struthiopteris-2.jpg",
+        "data/photos/matteucia-struthiopteris-3.jpg"
+      ]
+    },
+    {
+      "id": "carex-morrowii-ice-dance",
+      "name": "CAREX MORROWII ICE DANCE",
+      "nom": "CAREX MORROWII ICE DANCE",
+      "latin": "Carex morrowii",
+      "famille": "Cyperaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Tapissante",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "Magnifique vivace. J'ai planté un seul plant il y a 2 ans, et ça n'arrête plus de me faire plein de nouveaux plants, bien fournis et en pleine forme, tout autour de la plante mère. Elle a supporté les giboulées, l'hiver très froid, les journées très chaudes sans broncher. Veillez juste à ce que sa terre soit toujours humide et elle vous récompensera en faisant plein de petits bb Carex morrowii Ice Dance. Je l'adore elle est superbe.",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": "48"
+        }
+      ],
+      "photo": "data/photos/carex-morrowii-ice-dance-0.jpg",
+      "photos": [
+        "data/photos/carex-morrowii-ice-dance-0.jpg",
+        "data/photos/carex-morrowii-ice-dance-1.jpg",
+        "data/photos/carex-morrowii-ice-dance-2.jpg",
+        "data/photos/carex-morrowii-ice-dance-3.jpg"
+      ]
+    },
+    {
+      "id": "ophiopogon-nigrescens",
+      "name": "OPHIOPOGON NIGRESCENS",
+      "nom": "OPHIOPOGON NIGRESCENS",
+      "latin": "Ophiopogon planiscapus",
+      "famille": "Asparagaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "25 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "rose",
+        "lavande"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "7",
+      "desc": "Je viens d en acheter 1 pied ( coup de foudre pour la couleur ) on va voir ce qu elle va donner à côté de ma graminée panachée",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 48
+        }
+      ],
+      "photo": "data/photos/ophiopogon-nigrescens-0.jpg",
+      "photos": [
+        "data/photos/ophiopogon-nigrescens-0.jpg",
+        "data/photos/ophiopogon-nigrescens-1.jpg",
+        "data/photos/ophiopogon-nigrescens-2.jpg",
+        "data/photos/ophiopogon-nigrescens-3.jpg"
+      ]
+    },
+    {
+      "id": "cyclamen-coum-pink",
+      "name": "CYCLAMEN COUM PINK",
+      "nom": "CYCLAMEN COUM PINK",
+      "latin": "Cyclamen coum",
+      "famille": "Primulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Caucase",
+      "hauteur": "10 cm",
+      "largeur": "20 cm",
+      "exposition": "mi-ombre",
+      "port": "Tapissante",
+      "months": [
+        1,
+        2
+      ],
+      "colors": [
+        "rose-f"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "drainant",
+      "densite": "100",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": "48"
+        }
+      ],
+      "photo": "data/photos/cyclamen-coum-pink-0.jpg",
+      "photos": [
+        "data/photos/cyclamen-coum-pink-0.jpg",
+        "data/photos/cyclamen-coum-pink-1.jpg",
+        "data/photos/cyclamen-coum-pink-2.jpg",
+        "data/photos/cyclamen-coum-pink-3.jpg"
+      ]
+    },
+    {
+      "id": "cyclamen-hederafolium-album",
+      "name": "CYCLAMEN HEDERAFOLIUM ALBUM",
+      "nom": "CYCLAMEN HEDERAFOLIUM ALBUM",
+      "latin": "Cyclamen hederifolium 'Album'",
+      "famille": "Primulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Méditerranée",
+      "hauteur": "10 cm",
+      "largeur": "20 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "drainant",
+      "densite": "12",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 96
+        }
+      ],
+      "photo": "data/photos/cyclamen-hederafolium-album-0.jpg",
+      "photos": [
+        "data/photos/cyclamen-hederafolium-album-0.jpg",
+        "data/photos/cyclamen-hederafolium-album-1.jpg",
+        "data/photos/cyclamen-hederafolium-album-2.jpg",
+        "data/photos/cyclamen-hederafolium-album-3.jpg"
+      ]
+    },
+    {
+      "id": "cyclamen-hederaefolium-rosen-teppich",
+      "name": "CYCLAMEN HEDERAEFOLIUM ROSEN TEPPICH",
+      "nom": "CYCLAMEN HEDERAEFOLIUM ROSEN TEPPICH",
+      "latin": "Cyclamen hederifolium",
+      "famille": "Primulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Méditerranée",
+      "hauteur": "15 cm",
+      "largeur": "15 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "drainant",
+      "densite": "100",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 48
+        }
+      ],
+      "photo": "data/photos/cyclamen-hederaefolium-rosen-teppich-0.jpg",
+      "photos": [
+        "data/photos/cyclamen-hederaefolium-rosen-teppich-0.jpg",
+        "data/photos/cyclamen-hederaefolium-rosen-teppich-1.jpg",
+        "data/photos/cyclamen-hederaefolium-rosen-teppich-2.jpg",
+        "data/photos/cyclamen-hederaefolium-rosen-teppich-3.jpg"
+      ]
+    },
+    {
+      "id": "hosta-sieboldiana-frances-williams",
+      "name": "HOSTA SIEBOLDIANA FRANCES WILLIAMS",
+      "nom": "HOSTA SIEBOLDIANA FRANCES WILLIAMS",
+      "latin": "Hosta sieboldiana",
+      "famille": "Asparagaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "80 cm",
+      "exposition": "mi-ombre",
+      "port": "Récolte",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 28
+        }
+      ],
+      "photo": "data/photos/hosta-sieboldiana-frances-williams-0.jpg",
+      "photos": [
+        "data/photos/hosta-sieboldiana-frances-williams-0.jpg",
+        "data/photos/hosta-sieboldiana-frances-williams-1.jpg",
+        "data/photos/hosta-sieboldiana-frances-williams-2.jpg",
+        "data/photos/hosta-sieboldiana-frances-williams-3.jpg"
+      ]
+    },
+    {
+      "id": "astrantia-major-snow-star",
+      "name": "ASTRANTIA MAJOR SNOW STAR",
+      "nom": "ASTRANTIA MAJOR SNOW STAR",
+      "latin": "Astrantia major",
+      "famille": "Apiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe de l'ouest",
+      "hauteur": "60 cm",
+      "largeur": "45 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "rose",
+        "blanc",
+        "vert"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 26
+        }
+      ],
+      "photo": "data/photos/astrantia-major-snow-star-0.jpg",
+      "photos": [
+        "data/photos/astrantia-major-snow-star-0.jpg",
+        "data/photos/astrantia-major-snow-star-1.jpg",
+        "data/photos/astrantia-major-snow-star-2.jpg",
+        "data/photos/astrantia-major-snow-star-3.jpg"
+      ]
+    },
+    {
+      "id": "epimedium-pinnatum-elegans",
+      "name": "EPIMEDIUM PINNATUM ELEGANS",
+      "nom": "EPIMEDIUM PINNATUM ELEGANS",
+      "latin": "Epimedium pinnatum",
+      "famille": "Berberidaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        2,
+        3
+      ],
+      "colors": [
+        "jaune",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "7",
+      "desc": "aime toutes les expositions, au soleil, à l'ombre, à mi ombre - aime la sécheresse, le calcaire",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 96
+        }
+      ],
+      "photo": "data/photos/epimedium-pinnatum-elegans-0.jpg",
+      "photos": [
+        "data/photos/epimedium-pinnatum-elegans-0.jpg",
+        "data/photos/epimedium-pinnatum-elegans-1.jpg",
+        "data/photos/epimedium-pinnatum-elegans-2.jpg",
+        "data/photos/epimedium-pinnatum-elegans-3.jpg"
+      ]
+    },
+    {
+      "id": "anemone-x-elfin-swan",
+      "name": "ANEMONE X ELFIN SWAN",
+      "nom": "ANEMONE X ELFIN SWAN",
+      "latin": "Anemone rupicola",
+      "famille": "Ranunculaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Erigée",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "blanc",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 36
+        }
+      ],
+      "photo": "data/photos/anemone-x-elfin-swan-0.jpg",
+      "photos": [
+        "data/photos/anemone-x-elfin-swan-0.jpg",
+        "data/photos/anemone-x-elfin-swan-1.jpg",
+        "data/photos/anemone-x-elfin-swan-2.jpg",
+        "data/photos/anemone-x-elfin-swan-3.jpg"
+      ]
+    },
+    {
+      "id": "dryopteris-erythrosora",
+      "name": "DRYOPTERIS ERYTHROSORA",
+      "nom": "DRYOPTERIS ERYTHROSORA",
+      "latin": "Dryopteris erythrosora",
+      "famille": "Dryopteridaceae",
+      "typePlante": "Fougères",
+      "origine": "Asie orientale",
+      "hauteur": "70 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "Divergeant",
+      "months": [],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "20",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 14
+        },
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": 5
+        }
+      ],
+      "photo": "data/photos/dryopteris-erythrosora-0.jpg",
+      "photos": [
+        "data/photos/dryopteris-erythrosora-0.jpg",
+        "data/photos/dryopteris-erythrosora-1.jpg",
+        "data/photos/dryopteris-erythrosora-2.jpg",
+        "data/photos/dryopteris-erythrosora-3.jpg"
+      ]
+    },
+    {
+      "id": "astrantia-major-claret",
+      "name": "ASTRANTIA MAJOR CLARET",
+      "nom": "ASTRANTIA MAJOR CLARET",
+      "latin": "Astrantia major",
+      "famille": "Apiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "rose",
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "superbe plante vivace belle floraison printaniére et en eliminant les tiges fanées elles vous refont une nouvelle floraison aussi abondante",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 28
+        }
+      ],
+      "photo": "data/photos/astrantia-major-claret-0.jpg",
+      "photos": [
+        "data/photos/astrantia-major-claret-0.jpg",
+        "data/photos/astrantia-major-claret-1.jpg",
+        "data/photos/astrantia-major-claret-2.jpg"
+      ]
+    },
+    {
+      "id": "hosta-x-orange-marmelade",
+      "name": "HOSTA X ORANGE MARMELADE",
+      "nom": "HOSTA X ORANGE MARMELADE",
+      "latin": "Hosta Orange Marmelade®\n        \n            Funkia, Lis plantain",
+      "famille": "Asparagaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "lavande"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "6",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 36
+        }
+      ],
+      "photo": "data/photos/hosta-x-orange-marmelade-0.jpg",
+      "photos": [
+        "data/photos/hosta-x-orange-marmelade-0.jpg",
+        "data/photos/hosta-x-orange-marmelade-1.jpg",
+        "data/photos/hosta-x-orange-marmelade-2.jpg"
+      ]
+    },
+    {
+      "id": "ligularia-stenocephala-the-rocket",
+      "name": "LIGULARIA STENOCEPHALA THE ROCKET",
+      "nom": "LIGULARIA STENOCEPHALA THE ROCKET",
+      "latin": "Ligularia stenocephala",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1.80 m",
+      "largeur": "1 m",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "4",
+      "desc": "très gourmande en eau , mais elle sait nous faire comprendre ce manque lorsque l'on voit les feuilles qui s'affaissent, j'ai celle-ci depuis plus de 4 ans , je lui mets au pied de l'anti limaces sinon elle ressemble a de la dentelles",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 36
+        }
+      ],
+      "photo": "data/photos/ligularia-stenocephala-the-rocket-0.jpg",
+      "photos": [
+        "data/photos/ligularia-stenocephala-the-rocket-0.jpg",
+        "data/photos/ligularia-stenocephala-the-rocket-1.jpg",
+        "data/photos/ligularia-stenocephala-the-rocket-2.jpg",
+        "data/photos/ligularia-stenocephala-the-rocket-3.jpg"
+      ]
+    },
+    {
+      "id": "hemerocallis-fulva",
+      "name": "HEMEROCALLIS FULVA",
+      "nom": "HEMEROCALLIS FULVA",
+      "latin": "Hemerocallis fulva",
+      "famille": "Asphodelaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Asie orientale",
+      "hauteur": "1.20 m",
+      "largeur": "80 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        4,
+        5
+      ],
+      "colors": [
+        "jaune",
+        "orange",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "2",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 20
+        }
+      ],
+      "photo": "data/photos/hemerocallis-fulva-0.jpg",
+      "photos": [
+        "data/photos/hemerocallis-fulva-0.jpg",
+        "data/photos/hemerocallis-fulva-1.jpg",
+        "data/photos/hemerocallis-fulva-2.jpg",
+        "data/photos/hemerocallis-fulva-3.jpg"
+      ]
+    },
+    {
+      "id": "pervenche-panachee-a-petites-fleurs",
+      "name": "Pervenche panachée à petites fleurs",
+      "nom": "Pervenche panachée à petites fleurs",
+      "latin": "Vinca minor",
+      "famille": "Apocynaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "10 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "plantée au sec, aucune entretien, n'a pas tenu - dommage, feuillage lumineux",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 855
+        }
+      ],
+      "photo": "data/photos/pervenche-panachee-a-petites-fleurs-0.jpg",
+      "photos": [
+        "data/photos/pervenche-panachee-a-petites-fleurs-0.jpg",
+        "data/photos/pervenche-panachee-a-petites-fleurs-1.jpg",
+        "data/photos/pervenche-panachee-a-petites-fleurs-2.jpg",
+        "data/photos/pervenche-panachee-a-petites-fleurs-3.jpg"
+      ]
+    },
+    {
+      "id": "vinca-minor-alba",
+      "name": "VINCA MINOR ALBA",
+      "nom": "VINCA MINOR ALBA",
+      "latin": "Vinca minor",
+      "famille": "Apocynaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe de l'ouest",
+      "hauteur": "15 cm",
+      "largeur": "1 m",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 855
+        }
+      ],
+      "photo": "data/photos/vinca-minor-alba-0.jpg",
+      "photos": [
+        "data/photos/vinca-minor-alba-0.jpg",
+        "data/photos/vinca-minor-alba-1.jpg",
+        "data/photos/vinca-minor-alba-2.jpg",
+        "data/photos/vinca-minor-alba-3.jpg"
+      ]
+    },
+    {
+      "id": "primula-x-bullesiana",
+      "name": "PRIMULA X BULLESIANA",
+      "nom": "PRIMULA X BULLESIANA",
+      "latin": "Primula bulleyana",
+      "famille": "Primulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Chine",
+      "hauteur": "60 cm",
+      "largeur": "20 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "7",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "ALLEE PIERRE MARIE CURIE",
+          "massif": "",
+          "quantite": 84
+        }
+      ],
+      "photo": "data/photos/primula-x-bullesiana-0.jpg",
+      "photos": [
+        "data/photos/primula-x-bullesiana-0.jpg",
+        "data/photos/primula-x-bullesiana-1.jpg",
+        "data/photos/primula-x-bullesiana-2.jpg",
+        "data/photos/primula-x-bullesiana-3.jpg"
+      ]
+    },
+    {
+      "id": "achillea-millefolium-cerise-queen",
+      "name": "ACHILLEA MILLEFOLIUM CERISE QUEEN",
+      "nom": "ACHILLEA MILLEFOLIUM CERISE QUEEN",
+      "latin": "Achillea millefolium 'Cerise Queen'",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Tapissante",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose-f",
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "feuillage élégant, plumeux et parfum sur terrain pauvre au soleil, floraison durable.",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/achillea-millefolium-cerise-queen-0.jpg",
+      "photos": [
+        "data/photos/achillea-millefolium-cerise-queen-0.jpg",
+        "data/photos/achillea-millefolium-cerise-queen-1.jpg",
+        "data/photos/achillea-millefolium-cerise-queen-2.jpg"
+      ]
+    },
+    {
+      "id": "agapanthus-docteur-brouwer",
+      "name": "AGAPANTHUS DOCTEUR BROUWER",
+      "nom": "AGAPANTHUS DOCTEUR BROUWER",
+      "latin": "Agapanthus x",
+      "famille": "Amaryllidaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "violet",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -6.5°C (zone USDA 9a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "35"
+        }
+      ],
+      "photo": "data/photos/agapanthus-docteur-brouwer-0.jpg",
+      "photos": [
+        "data/photos/agapanthus-docteur-brouwer-0.jpg",
+        "data/photos/agapanthus-docteur-brouwer-1.jpg",
+        "data/photos/agapanthus-docteur-brouwer-2.jpg",
+        "data/photos/agapanthus-docteur-brouwer-3.jpg"
+      ]
+    },
+    {
+      "id": "alstromeria-summer-breeze",
+      "name": "ALSTROMERIA SUMMER BREEZE",
+      "nom": "ALSTROMERIA SUMMER BREEZE",
+      "latin": "Alstroemeria (Summer Paradise® Serie) 'Teshunte' Summer Breeze\n        \n            Lys des Incas Summer Breeze, Lis du Pérou Summer Breeze, Alstrœmère Summer Breeze",
+      "famille": "Alstroemeriaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "70 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "jaune",
+        "orange",
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -12°C (zone USDA 8a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "35"
+        }
+      ],
+      "photo": "data/photos/alstromeria-summer-breeze-0.jpg",
+      "photos": [
+        "data/photos/alstromeria-summer-breeze-0.jpg",
+        "data/photos/alstromeria-summer-breeze-1.jpg"
+      ]
+    },
+    {
+      "id": "anemone-x-ruffled-swann",
+      "name": "ANEMONE X RUFFLED SWANN",
+      "nom": "ANEMONE X RUFFLED SWANN",
+      "latin": "Anemone rupicola",
+      "famille": "Ranunculaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "75 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Erigée",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "blanc",
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "90"
+        }
+      ],
+      "photo": "data/photos/anemone-x-ruffled-swann-0.jpg",
+      "photos": [
+        "data/photos/anemone-x-ruffled-swann-0.jpg",
+        "data/photos/anemone-x-ruffled-swann-1.jpg",
+        "data/photos/anemone-x-ruffled-swann-2.jpg"
+      ]
+    },
+    {
+      "id": "anthemis-x-sauce-hollandaise",
+      "name": "ANTHEMIS X SAUCE HOLLANDAISE",
+      "nom": "ANTHEMIS X SAUCE HOLLANDAISE",
+      "latin": "Anthemis tinctoria",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "jaune",
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "Tres bonne plante",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "63"
+        }
+      ],
+      "photo": "data/photos/anthemis-x-sauce-hollandaise-0.jpg",
+      "photos": [
+        "data/photos/anthemis-x-sauce-hollandaise-0.jpg",
+        "data/photos/anthemis-x-sauce-hollandaise-1.jpg",
+        "data/photos/anthemis-x-sauce-hollandaise-2.jpg",
+        "data/photos/anthemis-x-sauce-hollandaise-3.jpg"
+      ]
+    },
+    {
+      "id": "aster-novii-angliae-harrington-pink",
+      "name": "ASTER NOVII ANGLIAE HARRINGTON PINK",
+      "nom": "ASTER NOVII ANGLIAE HARRINGTON PINK",
+      "latin": "Aster novae-angliae",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1.20 m",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "3",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/aster-novii-angliae-harrington-pink-0.jpg",
+      "photos": [
+        "data/photos/aster-novii-angliae-harrington-pink-0.jpg",
+        "data/photos/aster-novii-angliae-harrington-pink-1.jpg",
+        "data/photos/aster-novii-angliae-harrington-pink-2.jpg"
+      ]
+    },
+    {
+      "id": "centaurea-montana-purple-heart",
+      "name": "CENTAUREA MONTANA PURPLE HEART",
+      "nom": "CENTAUREA MONTANA PURPLE HEART",
+      "latin": "Centaurea montana",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "blanc",
+        "violet"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "90"
+        }
+      ],
+      "photo": "data/photos/centaurea-montana-purple-heart-0.jpg",
+      "photos": [
+        "data/photos/centaurea-montana-purple-heart-0.jpg",
+        "data/photos/centaurea-montana-purple-heart-1.jpg",
+        "data/photos/centaurea-montana-purple-heart-2.jpg"
+      ]
+    },
+    {
+      "id": "crocosmia-x-emberglow",
+      "name": "CROCOSMIA X EMBERGLOW",
+      "nom": "CROCOSMIA X EMBERGLOW",
+      "latin": "Crocosmia crocosmiiflora",
+      "famille": "Iridaceae",
+      "typePlante": "Bulbes et semences",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "10 cm",
+      "exposition": "soleil",
+      "port": "Hérissée",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "orange",
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -12°C (zone USDA 8a) Voir la carte",
+      "sol": "drainant",
+      "densite": "15",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "25"
+        }
+      ],
+      "photo": "data/photos/crocosmia-x-emberglow-0.jpg",
+      "photos": [
+        "data/photos/crocosmia-x-emberglow-0.jpg",
+        "data/photos/crocosmia-x-emberglow-1.jpg",
+        "data/photos/crocosmia-x-emberglow-2.jpg",
+        "data/photos/crocosmia-x-emberglow-3.jpg"
+      ]
+    },
+    {
+      "id": "echinacea-x-now-cheesier",
+      "name": "ECHINACEA X NOW CHEESIER",
+      "nom": "ECHINACEA X NOW CHEESIER",
+      "latin": "Echinacea purpurea",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Erigée",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "rose-f"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "40"
+        }
+      ],
+      "photo": "data/photos/echinacea-x-now-cheesier-0.jpg",
+      "photos": [
+        "data/photos/echinacea-x-now-cheesier-0.jpg",
+        "data/photos/echinacea-x-now-cheesier-1.jpg",
+        "data/photos/echinacea-x-now-cheesier-2.jpg",
+        "data/photos/echinacea-x-now-cheesier-3.jpg"
+      ]
+    },
+    {
+      "id": "echinacea-purpurea-tomato-soup",
+      "name": "ECHINACEA PURPUREA TOMATO SOUP",
+      "nom": "ECHINACEA PURPUREA TOMATO SOUP",
+      "latin": "Echinacea purpurea",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Erigée",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "36"
+        }
+      ],
+      "photo": "data/photos/echinacea-purpurea-tomato-soup-0.jpg",
+      "photos": [
+        "data/photos/echinacea-purpurea-tomato-soup-0.jpg",
+        "data/photos/echinacea-purpurea-tomato-soup-1.jpg"
+      ]
+    },
+    {
+      "id": "filipendula-purpurea-elegans",
+      "name": "FILIPENDULA PURPUREA ELEGANS",
+      "nom": "FILIPENDULA PURPUREA ELEGANS",
+      "latin": "Filipendula purpurea",
+      "famille": "Rosaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "70 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "argileux",
+      "densite": "3",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/filipendula-purpurea-elegans-0.jpg",
+      "photos": [
+        "data/photos/filipendula-purpurea-elegans-0.jpg",
+        "data/photos/filipendula-purpurea-elegans-1.jpg",
+        "data/photos/filipendula-purpurea-elegans-2.jpg",
+        "data/photos/filipendula-purpurea-elegans-3.jpg"
+      ]
+    },
+    {
+      "id": "geum-fire-storm",
+      "name": "GEUM FIRE STORM",
+      "nom": "GEUM FIRE STORM",
+      "latin": "Geum 'Fire Storm'",
+      "famille": "Rosaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "45 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "50"
+        }
+      ],
+      "photo": "data/photos/geum-fire-storm-0.jpg",
+      "photos": [
+        "data/photos/geum-fire-storm-0.jpg",
+        "data/photos/geum-fire-storm-1.jpg",
+        "data/photos/geum-fire-storm-2.jpg",
+        "data/photos/geum-fire-storm-3.jpg"
+      ]
+    },
+    {
+      "id": "geum-x-red-wings",
+      "name": "GEUM X RED WINGS",
+      "nom": "GEUM X RED WINGS",
+      "latin": "Geum coccineum",
+      "famille": "Rosaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "50"
+        }
+      ],
+      "photo": "data/photos/geum-x-red-wings-0.jpg",
+      "photos": [
+        "data/photos/geum-x-red-wings-0.jpg",
+        "data/photos/geum-x-red-wings-1.jpg"
+      ]
+    },
+    {
+      "id": "lobelia-fulgens-queen-victoria",
+      "name": "LOBELIA FULGENS QUEEN VICTORIA",
+      "nom": "LOBELIA FULGENS QUEEN VICTORIA",
+      "latin": "Lobelia fulgens",
+      "famille": "Campanulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -9.5°C (zone USDA 8b) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "Après un excellent départ au printemps, les plants ont été complètement boulottés par les gastéropodes !",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "33"
+        }
+      ],
+      "photo": "data/photos/lobelia-fulgens-queen-victoria-0.jpg",
+      "photos": [
+        "data/photos/lobelia-fulgens-queen-victoria-0.jpg",
+        "data/photos/lobelia-fulgens-queen-victoria-1.jpg",
+        "data/photos/lobelia-fulgens-queen-victoria-2.jpg",
+        "data/photos/lobelia-fulgens-queen-victoria-3.jpg"
+      ]
+    },
+    {
+      "id": "nepeta-faassenii-six-hill-giants",
+      "name": "NEPETA FAASSENII SIX HILL GIANTS",
+      "nom": "NEPETA FAASSENII SIX HILL GIANTS",
+      "latin": "Nepeta x",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "tres belle plante je cherche a en acheter mais aucune jardinerie n'en a tres decue",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "37"
+        }
+      ],
+      "photo": "data/photos/nepeta-faassenii-six-hill-giants-0.jpg",
+      "photos": [
+        "data/photos/nepeta-faassenii-six-hill-giants-0.jpg",
+        "data/photos/nepeta-faassenii-six-hill-giants-1.jpg",
+        "data/photos/nepeta-faassenii-six-hill-giants-2.jpg",
+        "data/photos/nepeta-faassenii-six-hill-giants-3.jpg"
+      ]
+    },
+    {
+      "id": "perovskia-atriplicifolia-blue-spire",
+      "name": "PEROVSKIA ATRIPLICIFOLIA BLUE SPIRE",
+      "nom": "PEROVSKIA ATRIPLICIFOLIA BLUE SPIRE",
+      "latin": "Perovskia x",
+      "famille": "Lamiaceae",
+      "typePlante": "Arbustes",
+      "origine": "Asie centrale",
+      "hauteur": "1.20 m",
+      "largeur": "80 cm",
+      "exposition": "soleil",
+      "port": "Ouvert",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "drainant",
+      "densite": "1",
+      "desc": "superbe et sans soins même en terre argileuse",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/perovskia-atriplicifolia-blue-spire-0.jpg",
+      "photos": [
+        "data/photos/perovskia-atriplicifolia-blue-spire-0.jpg",
+        "data/photos/perovskia-atriplicifolia-blue-spire-1.jpg",
+        "data/photos/perovskia-atriplicifolia-blue-spire-2.jpg",
+        "data/photos/perovskia-atriplicifolia-blue-spire-3.jpg"
+      ]
+    },
+    {
+      "id": "salvia-patens-dark-blue",
+      "name": "SALVIA PATENS DARK BLUE",
+      "nom": "SALVIA PATENS DARK BLUE",
+      "latin": "Salvia patens",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Amérique centrale",
+      "hauteur": "60 cm",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -6.5°C (zone USDA 9a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Jardiniere Clémenceau",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/salvia-patens-dark-blue-0.jpg",
+      "photos": [
+        "data/photos/salvia-patens-dark-blue-0.jpg",
+        "data/photos/salvia-patens-dark-blue-1.jpg",
+        "data/photos/salvia-patens-dark-blue-2.jpg",
+        "data/photos/salvia-patens-dark-blue-3.jpg"
+      ]
+    },
+    {
+      "id": "phlox-paniculata-rijnstroom",
+      "name": "PHLOX PANICULATA RIJNSTROOM",
+      "nom": "PHLOX PANICULATA RIJNSTROOM",
+      "latin": "Phlox paniculata 'Rijnstroom'",
+      "famille": "Polemoniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Erigée",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Clemenceau",
+          "massif": "Pieds des arbres",
+          "quantite": "84"
+        }
+      ],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "rudbeckia-fulgida-speciosa",
+      "name": "RUDBECKIA FULGIDA SPECIOSA",
+      "nom": "RUDBECKIA FULGIDA SPECIOSA",
+      "latin": "Rudbeckia fulgida",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Amérique du nord",
+      "hauteur": "60 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "Erigée",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "jaune",
+        "noir"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Clemenceau",
+          "massif": "Pieds des arbres",
+          "quantite": "84"
+        }
+      ],
+      "photo": "data/photos/rudbeckia-fulgida-speciosa-0.jpg",
+      "photos": [
+        "data/photos/rudbeckia-fulgida-speciosa-0.jpg",
+        "data/photos/rudbeckia-fulgida-speciosa-1.jpg",
+        "data/photos/rudbeckia-fulgida-speciosa-2.jpg",
+        "data/photos/rudbeckia-fulgida-speciosa-3.jpg"
+      ]
+    },
+    {
+      "id": "aster-frikartii-jung-frau",
+      "name": "ASTER FRIKARTII JUNG FRAU",
+      "nom": "ASTER FRIKARTII JUNG FRAU",
+      "latin": "Aster x",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Erigée",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "argileux",
+      "densite": "4",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Clemenceau",
+          "massif": "Pieds des arbres",
+          "quantite": "84"
+        }
+      ],
+      "photo": "data/photos/aster-frikartii-jung-frau-0.jpg",
+      "photos": [
+        "data/photos/aster-frikartii-jung-frau-0.jpg",
+        "data/photos/aster-frikartii-jung-frau-1.jpg",
+        "data/photos/aster-frikartii-jung-frau-2.jpg"
+      ]
+    },
+    {
+      "id": "euphorbia-amygdaloides-robbiae",
+      "name": "EUPHORBIA AMYGDALOIDES ROBBIAE",
+      "nom": "EUPHORBIA AMYGDALOIDES ROBBIAE",
+      "latin": "Euphorbia amygdaloïdes",
+      "famille": "Euphorbiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        3,
+        4
+      ],
+      "colors": [
+        "jaune",
+        "vert"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "elle occupe bien une partie de massif à la mi-ombre et au sec",
+      "affectations": [
+        {
+          "site": "Clemenceau",
+          "massif": "Pieds des arbres",
+          "quantite": "84"
+        }
+      ],
+      "photo": "data/photos/euphorbia-amygdaloides-robbiae-0.jpg",
+      "photos": [
+        "data/photos/euphorbia-amygdaloides-robbiae-0.jpg",
+        "data/photos/euphorbia-amygdaloides-robbiae-1.jpg",
+        "data/photos/euphorbia-amygdaloides-robbiae-2.jpg",
+        "data/photos/euphorbia-amygdaloides-robbiae-3.jpg"
+      ]
+    },
+    {
+      "id": "salvia-officinalis-icterina",
+      "name": "SALVIA OFFICINALIS ICTERINA",
+      "nom": "SALVIA OFFICINALIS ICTERINA",
+      "latin": "Salvia officinalis",
+      "famille": "Labiatae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Etalé bas",
+      "months": [],
+      "colors": [
+        "violet",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "9"
+        }
+      ],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "oenothera-macrocarpa",
+      "name": "OENOTHERA MACROCARPA",
+      "nom": "OENOTHERA MACROCARPA",
+      "latin": "Oenothera missouriensis",
+      "famille": "Onagraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Amérique du nord",
+      "hauteur": "15 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/oenothera-macrocarpa-0.jpg",
+      "photos": [
+        "data/photos/oenothera-macrocarpa-0.jpg",
+        "data/photos/oenothera-macrocarpa-1.jpg",
+        "data/photos/oenothera-macrocarpa-2.jpg",
+        "data/photos/oenothera-macrocarpa-3.jpg"
+      ]
+    },
+    {
+      "id": "stipa-tenuifolia-angel-hair",
+      "name": "STIPA TENUIFOLIA ANGEL HAIR",
+      "nom": "STIPA TENUIFOLIA ANGEL HAIR",
+      "latin": "Stipa tenuifolia",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Amérique centrale",
+      "hauteur": "45 cm",
+      "largeur": "45 cm",
+      "exposition": "soleil",
+      "port": "Hérissée",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "15"
+        }
+      ],
+      "photo": "data/photos/stipa-tenuifolia-angel-hair-0.jpg",
+      "photos": [
+        "data/photos/stipa-tenuifolia-angel-hair-0.jpg",
+        "data/photos/stipa-tenuifolia-angel-hair-1.jpg",
+        "data/photos/stipa-tenuifolia-angel-hair-2.jpg"
+      ]
+    },
+    {
+      "id": "geranium-x-brookside",
+      "name": "GERANIUM X BROOKSIDE",
+      "nom": "GERANIUM X BROOKSIDE",
+      "latin": "Geranium Brookside\n        \n            Géranium vivace hybride",
+      "famille": "Geraniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "Superbe couleur, une profusion de fleurs assez hautes. Très belle variété.",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "20"
+        }
+      ],
+      "photo": "data/photos/geranium-x-brookside-0.jpg",
+      "photos": [
+        "data/photos/geranium-x-brookside-0.jpg",
+        "data/photos/geranium-x-brookside-1.jpg",
+        "data/photos/geranium-x-brookside-2.jpg"
+      ]
+    },
+    {
+      "id": "aubrieta-x-hamburger-stadtpark",
+      "name": "AUBRIETA X HAMBURGER STADTPARK",
+      "nom": "AUBRIETA X HAMBURGER STADTPARK",
+      "latin": "Aubrieta x",
+      "famille": "Brassicaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "15 cm",
+      "largeur": "50 cm",
+      "exposition": "soleil",
+      "port": "Tapissante",
+      "months": [
+        3,
+        4
+      ],
+      "colors": [
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "25"
+        }
+      ],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "delosperma-table-mountain",
+      "name": "DELOSPERMA TABLE MOUNTAIN",
+      "nom": "DELOSPERMA TABLE MOUNTAIN",
+      "latin": "Delosperma cooperi",
+      "famille": "Aizoaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "8 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Tapissante",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "rose-f",
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -9.5°C (zone USDA 8b) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "40"
+        }
+      ],
+      "photo": "data/photos/delosperma-table-mountain-0.jpg",
+      "photos": [
+        "data/photos/delosperma-table-mountain-0.jpg",
+        "data/photos/delosperma-table-mountain-1.jpg",
+        "data/photos/delosperma-table-mountain-2.jpg"
+      ]
+    },
+    {
+      "id": "gaura-lindheimerii-syskiou-pink",
+      "name": "GAURA LINDHEIMERII SYSKIOU PINK",
+      "nom": "GAURA LINDHEIMERII SYSKIOU PINK",
+      "latin": "Gaura lindheimeri",
+      "famille": "Onagraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose-f"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "drainant",
+      "densite": "3",
+      "desc": "J'habite dans le Nord. J'avais 2 plantes magnifiques en été. Cet hiver les deux ont gelés. La température n'est pourtant pas descendue à - 15°. Mais c'est vrai qu'il a fait plus froid que les autres années !",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "10"
+        }
+      ],
+      "photo": "data/photos/gaura-lindheimerii-syskiou-pink-0.jpg",
+      "photos": [
+        "data/photos/gaura-lindheimerii-syskiou-pink-0.jpg",
+        "data/photos/gaura-lindheimerii-syskiou-pink-1.jpg",
+        "data/photos/gaura-lindheimerii-syskiou-pink-2.jpg",
+        "data/photos/gaura-lindheimerii-syskiou-pink-3.jpg"
+      ]
+    },
+    {
+      "id": "anemone-japonica-coupe-d-argent",
+      "name": "ANEMONE JAPONICA COUPE D'ARGENT",
+      "nom": "ANEMONE JAPONICA COUPE D'ARGENT",
+      "latin": "Anemone x",
+      "famille": "Ranunculaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "Erigée",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "10"
+        }
+      ],
+      "photo": "data/photos/anemone-japonica-coupe-d-argent-0.jpg",
+      "photos": [
+        "data/photos/anemone-japonica-coupe-d-argent-0.jpg"
+      ]
+    },
+    {
+      "id": "phlomis-russeliana",
+      "name": "PHLOMIS RUSSELIANA",
+      "nom": "PHLOMIS RUSSELIANA",
+      "latin": "Phlomis russeliana",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Moyen-Orient",
+      "hauteur": "80 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "2"
+        }
+      ],
+      "photo": "data/photos/phlomis-russeliana-0.jpg",
+      "photos": [
+        "data/photos/phlomis-russeliana-0.jpg",
+        "data/photos/phlomis-russeliana-1.jpg",
+        "data/photos/phlomis-russeliana-2.jpg",
+        "data/photos/phlomis-russeliana-3.jpg"
+      ]
+    },
+    {
+      "id": "lavatera-x-burgondy-wine",
+      "name": "LAVATERA X BURGONDY WINE",
+      "nom": "LAVATERA X BURGONDY WINE",
+      "latin": "Lavatera x",
+      "famille": "Malvaceae",
+      "typePlante": "Arbustes",
+      "origine": "Horticole",
+      "hauteur": "1.50 m",
+      "largeur": "1.20 m",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "violet"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "drainant",
+      "densite": "1",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Stade Pouget",
+          "massif": "",
+          "quantite": "3"
+        }
+      ],
+      "photo": "data/photos/lavatera-x-burgondy-wine-0.jpg",
+      "photos": [
+        "data/photos/lavatera-x-burgondy-wine-0.jpg",
+        "data/photos/lavatera-x-burgondy-wine-1.jpg",
+        "data/photos/lavatera-x-burgondy-wine-2.jpg"
+      ]
+    },
+    {
+      "id": "euphorbia-cyparissias",
+      "name": "EUPHORBIA CYPARISSIAS",
+      "nom": "EUPHORBIA CYPARISSIAS",
+      "latin": "Euphorbia cyparissias",
+      "famille": "Euphorbiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe centrale",
+      "hauteur": "30 cm",
+      "largeur": "50 cm",
+      "exposition": "soleil",
+      "port": "",
+      "months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "drainant",
+      "densite": "9",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "241"
+        }
+      ],
+      "photo": "data/photos/euphorbia-cyparissias-0.jpg",
+      "photos": [
+        "data/photos/euphorbia-cyparissias-0.jpg",
+        "data/photos/euphorbia-cyparissias-1.jpg",
+        "data/photos/euphorbia-cyparissias-2.jpg",
+        "data/photos/euphorbia-cyparissias-3.jpg"
+      ]
+    },
+    {
+      "id": "hedera-helix",
+      "name": "HEDERA HELIX",
+      "nom": "HEDERA HELIX",
+      "latin": "Hedera helix",
+      "famille": "Araliaceae",
+      "typePlante": "Plantes grimpantes",
+      "origine": "Europe de l'ouest",
+      "hauteur": "10 m",
+      "largeur": "10 m",
+      "exposition": "mi-ombre",
+      "port": "Grimpant",
+      "months": [
+        8,
+        9
+      ],
+      "colors": [],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "ordinaire",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "1106"
+        }
+      ],
+      "photo": "data/photos/hedera-helix-0.jpg",
+      "photos": [
+        "data/photos/hedera-helix-0.jpg"
+      ]
+    },
+    {
+      "id": "achillea-millefollium",
+      "name": "ACHILLEA MILLEFOLLIUM",
+      "nom": "ACHILLEA MILLEFOLLIUM",
+      "latin": "Achillea millefolium",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "Afficher plus + Voir moins - Valider",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C",
+      "sol": "",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "88"
+        }
+      ],
+      "photo": "data/photos/achillea-millefollium-0.jpg",
+      "photos": [
+        "data/photos/achillea-millefollium-0.jpg",
+        "data/photos/achillea-millefollium-1.jpg",
+        "data/photos/achillea-millefollium-2.jpg"
+      ]
+    },
+    {
+      "id": "salvia-nemorosa-blaukoenigin",
+      "name": "SALVIA NEMOROSA BLAUKOENIGIN",
+      "nom": "SALVIA NEMOROSA BLAUKOENIGIN",
+      "latin": "Salvia x",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "55 cm",
+      "largeur": "45 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "violet",
+        "bleu"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "88"
+        }
+      ],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "galium-odoratum",
+      "name": "GALIUM ODORATUM",
+      "nom": "GALIUM ODORATUM",
+      "latin": "Galium odoratum",
+      "famille": "Rubiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe de l'est",
+      "hauteur": "20 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Tapissante",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "blanc",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -12°C (zone USDA 8a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "266"
+        }
+      ],
+      "photo": "data/photos/galium-odoratum-0.jpg",
+      "photos": [
+        "data/photos/galium-odoratum-0.jpg",
+        "data/photos/galium-odoratum-1.jpg",
+        "data/photos/galium-odoratum-2.jpg",
+        "data/photos/galium-odoratum-3.jpg"
+      ]
+    },
+    {
+      "id": "pennisetum-alopecuroides-compressum",
+      "name": "PENNISETUM ALOPECUROIDES COMPRESSUM",
+      "nom": "PENNISETUM ALOPECUROIDES COMPRESSUM",
+      "latin": "Pennisetum alopecuroides",
+      "famille": "Gramineae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "Afficher plus + Voir moins - Valider",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -4°C",
+      "sol": "",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "44"
+        }
+      ],
+      "photo": "data/photos/pennisetum-alopecuroides-compressum-0.jpg",
+      "photos": [
+        "data/photos/pennisetum-alopecuroides-compressum-0.jpg",
+        "data/photos/pennisetum-alopecuroides-compressum-1.jpg"
+      ]
+    },
+    {
+      "id": "lysimachia-nummularia",
+      "name": "LYSIMACHIA NUMMULARIA",
+      "nom": "LYSIMACHIA NUMMULARIA",
+      "latin": "Lysimachia nummularia",
+      "famille": "Primulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "5 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "Tapissante",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "9",
+      "desc": "Superbe plante ! Je les ais mises au pied d'un laurier rose sur tige et ils se portent tous deux très bien et se complètent. Il faut cependant définir une limite. D'un plant dans un godet de 10cm de diamètre, il couvre aujourd'hui un bon mètre carré. J'arrache régulièrement le trop plein (en épaisseur) et le trop loin (pour ne pas qu'il aille trop loin). En automne j'avais pris deux morceaux pour les planter directement dans la terre dans un autre coin de mon jardin \\\"on verra bien\\\", sans préca",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "207"
+        }
+      ],
+      "photo": "data/photos/lysimachia-nummularia-0.jpg",
+      "photos": [
+        "data/photos/lysimachia-nummularia-0.jpg",
+        "data/photos/lysimachia-nummularia-1.jpg",
+        "data/photos/lysimachia-nummularia-2.jpg",
+        "data/photos/lysimachia-nummularia-3.jpg"
+      ]
+    },
+    {
+      "id": "iris-pseudoacorus",
+      "name": "IRIS PSEUDOACORUS",
+      "nom": "IRIS PSEUDOACORUS",
+      "latin": "Iris pseudacorus",
+      "famille": "Iridaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe centrale",
+      "hauteur": "1 m",
+      "largeur": "",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "207"
+        }
+      ],
+      "photo": "data/photos/iris-pseudoacorus-0.jpg",
+      "photos": [
+        "data/photos/iris-pseudoacorus-0.jpg",
+        "data/photos/iris-pseudoacorus-1.jpg",
+        "data/photos/iris-pseudoacorus-2.jpg",
+        "data/photos/iris-pseudoacorus-3.jpg"
+      ]
+    },
+    {
+      "id": "mentha-spicata",
+      "name": "MENTHA SPICATA",
+      "nom": "MENTHA SPICATA",
+      "latin": "Mentha spicata",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "argileux",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "207"
+        }
+      ],
+      "photo": "data/photos/mentha-spicata-0.jpg",
+      "photos": [
+        "data/photos/mentha-spicata-0.jpg",
+        "data/photos/mentha-spicata-1.jpg",
+        "data/photos/mentha-spicata-2.jpg",
+        "data/photos/mentha-spicata-3.jpg"
+      ]
+    },
+    {
+      "id": "mentha-aquatica",
+      "name": "MENTHA AQUATICA",
+      "nom": "MENTHA AQUATICA",
+      "latin": "Mentha aquatica",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "35 cm",
+      "largeur": "20 cm",
+      "exposition": "mi-ombre",
+      "port": "Récolte",
+      "months": [],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "argileux",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "90"
+        }
+      ],
+      "photo": "data/photos/mentha-aquatica-0.jpg",
+      "photos": [
+        "data/photos/mentha-aquatica-0.jpg",
+        "data/photos/mentha-aquatica-1.jpg"
+      ]
+    },
+    {
+      "id": "festuca-maireii",
+      "name": "FESTUCA MAIREII",
+      "nom": "FESTUCA MAIREII",
+      "latin": "Festuca mairei",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "",
+      "hauteur": "70 cm",
+      "largeur": "40 cm",
+      "exposition": "soleil",
+      "port": "Hérissée",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "jaune",
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "180"
+        }
+      ],
+      "photo": "data/photos/festuca-maireii-0.jpg",
+      "photos": [
+        "data/photos/festuca-maireii-0.jpg"
+      ]
+    },
+    {
+      "id": "geranium-sanguineum-album",
+      "name": "GERANIUM SANGUINEUM ALBUM",
+      "nom": "GERANIUM SANGUINEUM ALBUM",
+      "latin": "Geranium sanguineum",
+      "famille": "Geraniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "beaucoup de renseignements de base .merci.",
+      "affectations": [
+        {
+          "site": "Square Lucas Toussaint",
+          "massif": "",
+          "quantite": "180"
+        }
+      ],
+      "photo": "data/photos/geranium-sanguineum-album-0.jpg",
+      "photos": [
+        "data/photos/geranium-sanguineum-album-0.jpg",
+        "data/photos/geranium-sanguineum-album-1.jpg",
+        "data/photos/geranium-sanguineum-album-2.jpg",
+        "data/photos/geranium-sanguineum-album-3.jpg"
+      ]
+    },
+    {
+      "id": "centranthus-ruber-coccineus",
+      "name": "CENTRANTHUS RUBER COCCINEUS",
+      "nom": "CENTRANTHUS RUBER COCCINEUS",
+      "latin": "Valeriana rubra",
+      "famille": "Caprifoliaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "60 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "rose-f",
+        "rouge"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "je viens de recevoir mon colis je vous félicite pour la forme d'emballage , j'attends que la pluie cesse afin de les planter aux endroits choisis...merci à vous , je ne serais pas longue à recommander un autre arbuste de mon choix !connaissant déjà la valériane , celle-ci est de toute beauté et bien en plant !...",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "280"
+        }
+      ],
+      "photo": "data/photos/centranthus-ruber-coccineus-0.jpg",
+      "photos": [
+        "data/photos/centranthus-ruber-coccineus-0.jpg",
+        "data/photos/centranthus-ruber-coccineus-1.jpg",
+        "data/photos/centranthus-ruber-coccineus-2.jpg",
+        "data/photos/centranthus-ruber-coccineus-3.jpg"
+      ]
+    },
+    {
+      "id": "achillea-x-coronation-gold",
+      "name": "ACHILLEA X CORONATION GOLD",
+      "nom": "ACHILLEA X CORONATION GOLD",
+      "latin": "Achillea filipendulina",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "50 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "On début je n'ai pas trop aimée, par contre son couleur jeune et sa forme, donne à mon jardin un look vraiment sutil.",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "140"
+        }
+      ],
+      "photo": "data/photos/achillea-x-coronation-gold-0.jpg",
+      "photos": [
+        "data/photos/achillea-x-coronation-gold-0.jpg",
+        "data/photos/achillea-x-coronation-gold-1.jpg",
+        "data/photos/achillea-x-coronation-gold-2.jpg",
+        "data/photos/achillea-x-coronation-gold-3.jpg"
+      ]
+    },
+    {
+      "id": "sedum-spectabile-iceberg",
+      "name": "SEDUM SPECTABILE ICEBERG",
+      "nom": "SEDUM SPECTABILE ICEBERG",
+      "latin": "Sedum x",
+      "famille": "Crassulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "35 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "colors": [
+        "rose"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "140"
+        }
+      ],
+      "photo": "data/photos/sedum-spectabile-iceberg-0.jpg",
+      "photos": [
+        "data/photos/sedum-spectabile-iceberg-0.jpg",
+        "data/photos/sedum-spectabile-iceberg-1.jpg",
+        "data/photos/sedum-spectabile-iceberg-2.jpg"
+      ]
+    },
+    {
+      "id": "salvia-nemorosa-mainacht",
+      "name": "SALVIA NEMOROSA MAINACHT",
+      "nom": "SALVIA NEMOROSA MAINACHT",
+      "latin": "Salvia nemorosa",
+      "famille": "Lamiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "bleu"
+      ],
+      "mellifere": [
+        "oui"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "140"
+        }
+      ],
+      "photo": "data/photos/salvia-nemorosa-mainacht-0.jpg",
+      "photos": [
+        "data/photos/salvia-nemorosa-mainacht-0.jpg",
+        "data/photos/salvia-nemorosa-mainacht-1.jpg",
+        "data/photos/salvia-nemorosa-mainacht-2.jpg",
+        "data/photos/salvia-nemorosa-mainacht-3.jpg"
+      ]
+    },
+    {
+      "id": "festuca-glauca-festina",
+      "name": "FESTUCA GLAUCA FESTINA",
+      "nom": "FESTUCA GLAUCA FESTINA",
+      "latin": "Festuca ovina",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Europe centrale",
+      "hauteur": "25 cm",
+      "largeur": "20 cm",
+      "exposition": "soleil",
+      "port": "En coussin",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "drainant",
+      "densite": "9",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "70"
+        }
+      ],
+      "photo": "data/photos/festuca-glauca-festina-0.jpg",
+      "photos": [
+        "data/photos/festuca-glauca-festina-0.jpg"
+      ]
+    },
+    {
+      "id": "aegopodium-podagraria-variegata",
+      "name": "AEGOPODIUM PODAGRARIA VARIEGATA",
+      "nom": "AEGOPODIUM PODAGRARIA VARIEGATA",
+      "latin": "Aegopodium podagaria",
+      "famille": "Apiaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe du nord",
+      "hauteur": "60 cm",
+      "largeur": "1 m",
+      "exposition": "mi-ombre",
+      "port": "Tapissante",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "blanc",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "drainant",
+      "densite": "7",
+      "desc": "très beau couvre-sol étouffant les mauvaises herbes, même les liserons et orties! J'enlève les pissenlits l'hiver quand l'Aegopodium a disparu. Pour le limiter je taille les fleurs rares et faciles à couper (donc pas de graines) et j'ai enterré autour un morceau de bâche verte sur 20 cm de profondeur et de largeur. Au milieu pousse un magnifique sureau qui n'a pas l'air de souffrir du tout, terrain sec et calcaire.",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "232"
+        }
+      ],
+      "photo": "data/photos/aegopodium-podagraria-variegata-0.jpg",
+      "photos": [
+        "data/photos/aegopodium-podagraria-variegata-0.jpg"
+      ]
+    },
+    {
+      "id": "campanula-persicifolia-alba",
+      "name": "CAMPANULA PERSICIFOLIA ALBA",
+      "nom": "CAMPANULA PERSICIFOLIA ALBA",
+      "latin": "Campanula persicifolia",
+      "famille": "Campanulaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "En rosette",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "drainant",
+      "densite": "5",
+      "desc": "Jolie plante, très résistante, belle floraison mais si elle se plaît dans votre jardin, elle devient très envahissante...!",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "115"
+        }
+      ],
+      "photo": "data/photos/campanula-persicifolia-alba-0.jpg",
+      "photos": [
+        "data/photos/campanula-persicifolia-alba-0.jpg",
+        "data/photos/campanula-persicifolia-alba-1.jpg",
+        "data/photos/campanula-persicifolia-alba-2.jpg",
+        "data/photos/campanula-persicifolia-alba-3.jpg"
+      ]
+    },
+    {
+      "id": "alchemilla-mollis",
+      "name": "ALCHEMILLA MOLLIS",
+      "nom": "ALCHEMILLA MOLLIS",
+      "latin": "Alchemilla mollis",
+      "famille": "Rosaceae",
+      "typePlante": "Vivaces",
+      "origine": "Caucase",
+      "hauteur": "40 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "vert"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "116"
+        }
+      ],
+      "photo": "data/photos/alchemilla-mollis-0.jpg",
+      "photos": [
+        "data/photos/alchemilla-mollis-0.jpg",
+        "data/photos/alchemilla-mollis-1.jpg",
+        "data/photos/alchemilla-mollis-2.jpg",
+        "data/photos/alchemilla-mollis-3.jpg"
+      ]
+    },
+    {
+      "id": "carex-oshimensis-everillo",
+      "name": "CAREX OSHIMENSIS EVERILLO",
+      "nom": "CAREX OSHIMENSIS EVERILLO",
+      "latin": "Carex oshimensis",
+      "famille": "Cyperaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "En coussin",
+      "months": [
+        8,
+        9
+      ],
+      "colors": [
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -18°C (zone USDA 7a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "PARC DREHER",
+          "massif": "",
+          "quantite": "39"
+        }
+      ],
+      "photo": "data/photos/carex-oshimensis-everillo-0.jpg",
+      "photos": [
+        "data/photos/carex-oshimensis-everillo-0.jpg",
+        "data/photos/carex-oshimensis-everillo-1.jpg"
+      ]
+    },
+    {
+      "id": "carex-oshimensis-eversheen",
+      "name": "CAREX OSHIMENSIS EVERSHEEN",
+      "nom": "CAREX OSHIMENSIS EVERSHEEN",
+      "latin": "Carex oshimensis 'Eversheen'",
+      "famille": "Cyperaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Afficher plus + Voir moins - Valider",
+      "months": [
+        4,
+        5
+      ],
+      "colors": [
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -18°C",
+      "sol": "",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/carex-oshimensis-eversheen-0.jpg",
+      "photos": [
+        "data/photos/carex-oshimensis-eversheen-0.jpg",
+        "data/photos/carex-oshimensis-eversheen-1.jpg"
+      ]
+    },
+    {
+      "id": "alopecurus-pratensis-variegata",
+      "name": "ALOPECURUS PRATENSIS VARIEGATA",
+      "nom": "ALOPECURUS PRATENSIS VARIEGATA",
+      "latin": "Alopecurus pratensis 'Aureovariegatus'",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Europe centrale",
+      "hauteur": "60 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "colors": [
+        "lavande",
+        "vert"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Rustique (T° mini : -15°)",
+      "sol": "drainant",
+      "densite": "",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/alopecurus-pratensis-variegata-0.jpg",
+      "photos": [
+        "data/photos/alopecurus-pratensis-variegata-0.jpg",
+        "data/photos/alopecurus-pratensis-variegata-1.jpg",
+        "data/photos/alopecurus-pratensis-variegata-2.jpg"
+      ]
+    },
+    {
+      "id": "deschampsia-cespitosa-northern-light",
+      "name": "DESCHAMPSIA CESPITOSA NORTHERN LIGHT",
+      "nom": "DESCHAMPSIA CESPITOSA NORTHERN LIGHT",
+      "latin": "Deschampsia caespitosa",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "45 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "jaune"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -40°C (zone USDA 3) Voir la carte",
+      "sol": "argileux",
+      "densite": "6",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/deschampsia-cespitosa-northern-light-0.jpg",
+      "photos": [
+        "data/photos/deschampsia-cespitosa-northern-light-0.jpg",
+        "data/photos/deschampsia-cespitosa-northern-light-1.jpg",
+        "data/photos/deschampsia-cespitosa-northern-light-2.jpg"
+      ]
+    },
+    {
+      "id": "carex-buchananii",
+      "name": "CAREX BUCHANANII",
+      "nom": "CAREX BUCHANANII",
+      "latin": "Carex buchananii",
+      "famille": "Cyperaceae",
+      "typePlante": "Graminées",
+      "origine": "Océanie",
+      "hauteur": "50 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        7,
+        8
+      ],
+      "colors": [],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "",
+      "rusticite": "Jusqu'à -12°C (zone USDA 8a) Voir la carte",
+      "sol": "argileux",
+      "densite": "6",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/carex-buchananii-0.jpg",
+      "photos": [
+        "data/photos/carex-buchananii-0.jpg",
+        "data/photos/carex-buchananii-1.jpg"
+      ]
+    },
+    {
+      "id": "deschampsia-cespitosa-goldtau",
+      "name": "DESCHAMPSIA CESPITOSA GOLDTAU",
+      "nom": "DESCHAMPSIA CESPITOSA GOLDTAU",
+      "latin": "Deschampsia caespitosa",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "45 cm",
+      "largeur": "45 cm",
+      "exposition": "mi-ombre",
+      "port": "Divergeant",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "jaune",
+        "brun"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -40°C (zone USDA 3) Voir la carte",
+      "sol": "argileux",
+      "densite": "6",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/deschampsia-cespitosa-goldtau-0.jpg",
+      "photos": [
+        "data/photos/deschampsia-cespitosa-goldtau-0.jpg"
+      ]
+    },
+    {
+      "id": "molinia-coerula-moorhexe",
+      "name": "MOLINIA COERULA MOORHEXE",
+      "nom": "MOLINIA COERULA MOORHEXE",
+      "latin": "Molinia caerulea",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "45 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "noir"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/molinia-coerula-moorhexe-0.jpg",
+      "photos": [
+        "data/photos/molinia-coerula-moorhexe-0.jpg",
+        "data/photos/molinia-coerula-moorhexe-1.jpg",
+        "data/photos/molinia-coerula-moorhexe-2.jpg",
+        "data/photos/molinia-coerula-moorhexe-3.jpg"
+      ]
+    },
+    {
+      "id": "pennisetum-alopecuroides-little-bunny",
+      "name": "PENNISETUM ALOPECUROIDES LITTLE BUNNY",
+      "nom": "PENNISETUM ALOPECUROIDES LITTLE BUNNY",
+      "latin": "Pennisetum alopecuroïdes",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "30 cm",
+      "largeur": "30 cm",
+      "exposition": "soleil",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -20.5°C (zone USDA 6b) Voir la carte",
+      "sol": "drainant",
+      "densite": "7",
+      "desc": "superbe graminée qui en hiver couverte couverte de givre est magnifique",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/pennisetum-alopecuroides-little-bunny-0.jpg",
+      "photos": [
+        "data/photos/pennisetum-alopecuroides-little-bunny-0.jpg",
+        "data/photos/pennisetum-alopecuroides-little-bunny-1.jpg"
+      ]
+    },
+    {
+      "id": "imperata-cylindrica-red-baron",
+      "name": "IMPERATA CYLINDRICA RED BARON",
+      "nom": "IMPERATA CYLINDRICA RED BARON",
+      "latin": "Imperata cylindrica",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "50 cm",
+      "largeur": "35 cm",
+      "exposition": "soleil",
+      "port": "Hérissée",
+      "months": [
+        7,
+        8
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "20",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": "data/photos/imperata-cylindrica-red-baron-0.jpg",
+      "photos": [
+        "data/photos/imperata-cylindrica-red-baron-0.jpg",
+        "data/photos/imperata-cylindrica-red-baron-1.jpg",
+        "data/photos/imperata-cylindrica-red-baron-2.jpg"
+      ]
+    },
+    {
+      "id": "melica-altissima-atropurpurea",
+      "name": "MELICA ALTISSIMA ATROPURPUREA",
+      "nom": "MELICA ALTISSIMA ATROPURPUREA",
+      "latin": "Melica altissima",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Horticole",
+      "hauteur": "80 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "colors": [
+        "rouge",
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "superbe plante",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "briza-mediae",
+      "name": "BRIZA MEDIAE",
+      "nom": "BRIZA MEDIAE",
+      "latin": "Briza media",
+      "famille": "Poaceae",
+      "typePlante": "Graminées",
+      "origine": "Europe de l'est",
+      "hauteur": "55 cm",
+      "largeur": "45 cm",
+      "exposition": "soleil",
+      "port": "Hérissée",
+      "months": [
+        6,
+        7
+      ],
+      "colors": [
+        "violet",
+        "vert"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "drainant",
+      "densite": "6",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "terre-plein central De Gaulle",
+          "massif": "",
+          "quantite": "80"
+        }
+      ],
+      "photo": null,
+      "photos": []
+    },
+    {
+      "id": "convallaria-majalis",
+      "name": "CONVALLARIA MAJALIS",
+      "nom": "CONVALLARIA MAJALIS",
+      "latin": "Convallaria majalis",
+      "famille": "Asparagaceae (Liliaceae)",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Europe de l'ouest",
+      "hauteur": "20 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        3,
+        4
+      ],
+      "colors": [
+        "blanc"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "30"
+        }
+      ],
+      "photo": "data/photos/convallaria-majalis-0.jpg",
+      "photos": [
+        "data/photos/convallaria-majalis-0.jpg",
+        "data/photos/convallaria-majalis-1.jpg",
+        "data/photos/convallaria-majalis-2.jpg",
+        "data/photos/convallaria-majalis-3.jpg"
+      ]
+    },
+    {
+      "id": "heuchera-x-berry-smoothie",
+      "name": "HEUCHERA X BERRY SMOOTHIE",
+      "nom": "HEUCHERA X BERRY SMOOTHIE",
+      "latin": "Heuchera Berry Smoothie®\n        \n            Heuchère, Heuchera, Désespoir du peintre",
+      "famille": "Saxifragaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6
+      ],
+      "colors": [
+        "blanc",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "2",
+      "desc": "Magnifique plante qui illumine toujours un coin de jardin Elle attire l'oeil par sa grace et couleur. A avoir dans un coin.",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "10"
+        }
+      ],
+      "photo": "data/photos/heuchera-x-berry-smoothie-0.jpg",
+      "photos": [
+        "data/photos/heuchera-x-berry-smoothie-0.jpg",
+        "data/photos/heuchera-x-berry-smoothie-1.jpg"
+      ]
+    },
+    {
+      "id": "geranium-x-pink-penny",
+      "name": "GERANIUM X PINK PENNY",
+      "nom": "GERANIUM X PINK PENNY",
+      "latin": "Geranium Pink Penny\n        \n            Géranium vivace hybride, Bec de grue",
+      "famille": "Geraniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "35 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "rose",
+        "lavande"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "15"
+        }
+      ],
+      "photo": "data/photos/geranium-x-pink-penny-0.jpg",
+      "photos": [
+        "data/photos/geranium-x-pink-penny-0.jpg",
+        "data/photos/geranium-x-pink-penny-1.jpg",
+        "data/photos/geranium-x-pink-penny-2.jpg"
+      ]
+    },
+    {
+      "id": "acanthus-whitewater",
+      "name": "ACANTHUS WHITEWATER",
+      "nom": "ACANTHUS WHITEWATER",
+      "latin": "Acanthus mollis",
+      "famille": "Acanthaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Méditerranée",
+      "hauteur": "1.20 m",
+      "largeur": "1 m",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "colors": [
+        "blanc",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "dore-panaché",
+      "rusticite": "Jusqu'à -15°C (zone USDA 7b) Voir la carte",
+      "sol": "argileux",
+      "densite": "1",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "5"
+        }
+      ],
+      "photo": "data/photos/acanthus-whitewater-0.jpg",
+      "photos": [
+        "data/photos/acanthus-whitewater-0.jpg"
+      ]
+    },
+    {
+      "id": "liriope-muscarii-big-blue",
+      "name": "LIRIOPE MUSCARII BIG BLUE",
+      "nom": "LIRIOPE MUSCARII BIG BLUE",
+      "latin": "Liriope muscari",
+      "famille": "Liliaceae (Asparagaceae)",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "50 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "vert-fonce",
+      "rusticite": "Jusqu'à -23.5°C (zone USDA 6a) Voir la carte",
+      "sol": "argileux",
+      "densite": "3",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "7"
+        }
+      ],
+      "photo": "data/photos/liriope-muscarii-big-blue-0.jpg",
+      "photos": [
+        "data/photos/liriope-muscarii-big-blue-0.jpg",
+        "data/photos/liriope-muscarii-big-blue-1.jpg",
+        "data/photos/liriope-muscarii-big-blue-2.jpg",
+        "data/photos/liriope-muscarii-big-blue-3.jpg"
+      ]
+    },
+    {
+      "id": "ligularia-dendata-desdemona",
+      "name": "LIGULARIA DENDATA DESDEMONA",
+      "nom": "LIGULARIA DENDATA DESDEMONA",
+      "latin": "Ligularia dentata",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "1 m",
+      "largeur": "60 cm",
+      "exposition": "mi-ombre",
+      "port": "Buissonnant",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "colors": [
+        "jaune",
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "belle floraison estivale mais le feuillage ornemental est souvent ravagé par les limaces et escargots",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "5"
+        }
+      ],
+      "photo": "data/photos/ligularia-dendata-desdemona-0.jpg",
+      "photos": [
+        "data/photos/ligularia-dendata-desdemona-0.jpg",
+        "data/photos/ligularia-dendata-desdemona-1.jpg",
+        "data/photos/ligularia-dendata-desdemona-2.jpg",
+        "data/photos/ligularia-dendata-desdemona-3.jpg"
+      ]
+    },
+    {
+      "id": "centaurea-amethyst-dream",
+      "name": "CENTAUREA AMETHYST DREAM",
+      "nom": "CENTAUREA AMETHYST DREAM",
+      "latin": "Centaurea montana",
+      "famille": "Asteraceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "60 cm",
+      "largeur": "40 cm",
+      "exposition": "mi-ombre",
+      "port": "",
+      "months": [
+        3,
+        4,
+        5
+      ],
+      "colors": [
+        "violet"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "gris-argente",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "5",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "15"
+        }
+      ],
+      "photo": "data/photos/centaurea-amethyst-dream-0.jpg",
+      "photos": [
+        "data/photos/centaurea-amethyst-dream-0.jpg",
+        "data/photos/centaurea-amethyst-dream-1.jpg",
+        "data/photos/centaurea-amethyst-dream-2.jpg"
+      ]
+    },
+    {
+      "id": "epimedium-warleyense",
+      "name": "EPIMEDIUM WARLEYENSE",
+      "nom": "EPIMEDIUM WARLEYENSE",
+      "latin": "Epimedium x",
+      "famille": "Berberidaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "40 cm",
+      "largeur": "40 cm",
+      "exposition": "ombre",
+      "port": "Buissonnant",
+      "months": [
+        3,
+        4
+      ],
+      "colors": [
+        "jaune",
+        "orange"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "persistant",
+      "couleurFeuillage": "pourpre",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "6",
+      "desc": "aime toutes les expositions, au soleil, à l'ombre, à mi ombre - aime la sécheresse, le calcaire",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "15"
+        }
+      ],
+      "photo": "data/photos/epimedium-warleyense-0.jpg",
+      "photos": [
+        "data/photos/epimedium-warleyense-0.jpg",
+        "data/photos/epimedium-warleyense-1.jpg",
+        "data/photos/epimedium-warleyense-2.jpg"
+      ]
+    },
+    {
+      "id": "phlox-stolonifera-blue-ridge",
+      "name": "PHLOX STOLONIFERA BLUE RIDGE",
+      "nom": "PHLOX STOLONIFERA BLUE RIDGE",
+      "latin": "Phlox stolonifera",
+      "famille": "Polemoniaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Horticole",
+      "hauteur": "25 cm",
+      "largeur": "30 cm",
+      "exposition": "mi-ombre",
+      "port": "Tapissante",
+      "months": [
+        4,
+        5
+      ],
+      "colors": [
+        "lavande",
+        "bleu"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "caduc",
+      "couleurFeuillage": "vert",
+      "rusticite": "Jusqu'à -34.5°C (zone USDA 4) Voir la carte",
+      "sol": "argileux",
+      "densite": "10",
+      "desc": "J'en avais acheté dans =une jardinerie. Je viens de commander deux plants car ce bleu très doux fait un tapis délicat.",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "17"
+        }
+      ],
+      "photo": "data/photos/phlox-stolonifera-blue-ridge-0.jpg",
+      "photos": [
+        "data/photos/phlox-stolonifera-blue-ridge-0.jpg",
+        "data/photos/phlox-stolonifera-blue-ridge-1.jpg",
+        "data/photos/phlox-stolonifera-blue-ridge-2.jpg"
+      ]
+    },
+    {
+      "id": "hemerocallis-fulva-kwanso",
+      "name": "HEMEROCALLIS FULVA KWANSO",
+      "nom": "HEMEROCALLIS FULVA KWANSO",
+      "latin": "Hemerocallis fulva",
+      "famille": "Asphodelaceae",
+      "typePlante": "Plantes Vivaces",
+      "origine": "Asie orientale",
+      "hauteur": "1.20 m",
+      "largeur": "80 cm",
+      "exposition": "mi-ombre",
+      "port": "Hérissée",
+      "months": [
+        4,
+        5
+      ],
+      "colors": [
+        "jaune",
+        "orange",
+        "creme"
+      ],
+      "mellifere": [
+        "non"
+      ],
+      "feuillage": "semi-persistant",
+      "couleurFeuillage": "glauque",
+      "rusticite": "Jusqu'à -29°C (zone USDA 5) Voir la carte",
+      "sol": "argileux",
+      "densite": "2",
+      "desc": "",
+      "affectations": [
+        {
+          "site": "Gabriel Peri",
+          "massif": "",
+          "quantite": "9"
+        }
+      ],
+      "photo": "data/photos/hemerocallis-fulva-kwanso-0.jpg",
+      "photos": [
+        "data/photos/hemerocallis-fulva-kwanso-0.jpg",
+        "data/photos/hemerocallis-fulva-kwanso-1.jpg",
+        "data/photos/hemerocallis-fulva-kwanso-2.jpg"
       ]
     }
   ]
