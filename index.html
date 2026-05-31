@@ -229,7 +229,7 @@ function renderFiche(p){
     : heroIllus();
   var galHtml = photos.length>1
     ? '<div class="gallery">'+photos.map(function(s,i){
-        return '<img class="gthumb'+(i===0?' on':'')+'" src="'+esc(s)+'" alt="" onclick="vbSwapHero(this)" onerror="this.style.display='none'">';
+        return '<img class="gthumb'+(i===0?' on':'')+'" src="'+esc(s)+'" alt="" onclick="vbSwapHero(this)" onerror="this.remove()">';
       }).join('')+'</div>'
     : '';
 
